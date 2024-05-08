@@ -100,6 +100,12 @@ const DostLiteBanner = () => {
 };
 
 const TitleWithImg = () => {
+  function handleScrollToComponent() {
+    const element = document.getElementById('onRoadPriceComponent');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   return (
     <>
       <div className='row mb-2'>
@@ -152,6 +158,7 @@ const TitleWithImg = () => {
               variant='outline-danger me-2 text-uppercase rounded-0'
               className='btn-hover mb-1'
               style={{ border: '1px solid #9f2a2c', color: '#9f2a2c' }}
+              onClick={handleScrollToComponent}
             >
               get on road price
             </Button>
@@ -366,7 +373,10 @@ const VehicleForm = () => {
   };
 
   return (
-    <div className='container shadow rounded-3 border my-5'>
+    <div
+      className='container shadow rounded-3 border my-5'
+      id='onRoadPriceComponent'
+    >
       <div className='row p-3 align-items-center'>
         <div className='col-lg-6 col-md-12 col-12 mt-3'>
           <h3>Get On Road Price of Dost LiTE</h3>
