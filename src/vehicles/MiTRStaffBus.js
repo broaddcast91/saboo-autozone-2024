@@ -125,7 +125,7 @@ const TitleWithImg = () => {
         <div className='col-lg-6 mb-3'>
           <h4>Ashok-Leyland MiTR Staff Bus On Road Price In Hyderabad</h4>
           <h5>
-            Starting from ₹ 14.50 Lakh<sup>*</sup>
+            Starting from ₹ 17.50 Lakh<sup>*</sup>
           </h5>
           <small className='text-danger'>
             <sup>*</sup>Prices are subjected to change at anytime, final price

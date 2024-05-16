@@ -122,7 +122,7 @@ const TitleWithImg = () => {
             Hyderabad
           </h4>
           <h5>
-            Starting from ₹ 15.75 Lakh <sup>*</sup>
+            Starting from ₹ 17 Lakh <sup>*</sup>
           </h5>
           <small className='text-danger'>
             <sup>*</sup>Prices are subjected to change at anytime, final price

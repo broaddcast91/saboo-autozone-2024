@@ -139,7 +139,7 @@ const TitleWithImg = () => {
               : 'Ashok Leyland DOST Plus on road price in Hyderabad'}
           </h4>
           <h5>
-            Starting from ₹ 8.48 Lakh<sup>*</sup>
+            Starting from ₹ 8 Lakh<sup>*</sup>
           </h5>
           <small className='text-danger'>
             *

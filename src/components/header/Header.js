@@ -208,17 +208,17 @@ const MainHeader = () => {
                           </Link>
                           <div className='header-dropdown second'>
                             <ul className='p-0'>
-                              <li className='header-dropdown-link'>
+                              {/* <li className='header-dropdown-link'>
                                 <Link to='/bada-dost-i1-on-road-price-in-hyderabad'>
                                   Bada Dost i1
                                 </Link>
-                              </li>
+                              </li> */}
                               <li className='header-dropdown-link'>
                                 <Link to='/bada-dost-i2-on-road-price-in-hyderabad'>
                                   Bada Dost i2
                                 </Link>
                               </li>
-                              <li className='header-dropdown-link'>
+                              {/* <li className='header-dropdown-link'>
                                 <Link to='/bada-dost-i3-on-road-price-in-hyderabad'>
                                   Bada Dost i3
                                 </Link>
@@ -227,7 +227,7 @@ const MainHeader = () => {
                                 <Link to='/bada-dost-i3-plus-on-road-price-in-hyderabad'>
                                   Bada Dost i3+
                                 </Link>
-                              </li>
+                              </li> */}
                               <li className='header-dropdown-link'>
                                 <Link to='/bada-dost-i4-on-road-price-in-hyderabad'>
                                   Bada Dost i4

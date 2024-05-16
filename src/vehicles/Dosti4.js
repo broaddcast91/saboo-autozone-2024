@@ -119,7 +119,7 @@ const TitleWithImg = () => {
         <div className='col-lg-6 mb-3 ps-4'>
           <h4>Ashok Leyland BADA DOST i4 On Road Price In Hyderabad</h4>
           <h5>
-            Starting ₹ 10.04 Lakh <sup>*</sup>
+            Starting ₹ 10 Lakh <sup>*</sup>
           </h5>
           <small className='text-danger'>
             <sup>*</sup>Prices are subjected to change at anytime, final price
