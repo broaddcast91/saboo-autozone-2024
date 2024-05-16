@@ -5,7 +5,7 @@ import Slider from '../components/home/slider/Slider';
 import VehiclesList from '../components/home/vehicles/VehiclesList';
 import { Helmet } from 'react-helmet';
 //confetti
-import Confetti from 'react-confetti';
+// import Confetti from 'react-confetti';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 
