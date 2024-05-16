@@ -121,7 +121,7 @@ const TitleWithImg = () => {
         <div className='col-lg-6 mb-3 ps-4'>
           <h4>Ashok Leyland New DOST Strong on road price in Hyderabad</h4>
           <h5>
-            Starting from ₹ 7.43 Lakh<sup>*</sup>
+            Starting from ₹ 8.15 Lakh<sup>*</sup>
           </h5>
           <small className='text-danger'>
             <sup>*</sup>Prices are subjected to change at anytime, final price

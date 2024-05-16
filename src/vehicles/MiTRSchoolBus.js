@@ -108,6 +108,15 @@ const MiTRSchoolBusBanner = () => {
 };
 
 const TitleWithImg = () => {
+  const [selectedOption, setSelectedOption] = useState('');
+  const [displayText, setDisplayText] = useState('27,73,876');
+
+  const handleChange = (event) => {
+    const value = event.target.value;
+    setSelectedOption(value);
+    setDisplayText(value);
+  };
+
   function handleScrollToComponent() {
     const element = document.getElementById('onRoadPriceComponent');
     if (element) {
@@ -127,10 +136,20 @@ const TitleWithImg = () => {
         <div className='col-lg-6 mb-3'>
           <h4>Ashok Leyland MiTR School Bus On Road Price In Hyderabad</h4>
           <h5>
-            Starting from ₹ 15.00 Lakh<sup>*</sup>
+            Starting from ₹ <span>{displayText}</span> Lakh<sup>*</sup>
           </h5>
+          <div className='m-3'>
+            <span className='px-2'>Select Bus Type:</span>
+            <select value={selectedOption} onChange={handleChange}>
+              <option value='' disabled>
+                Select Bus Type
+              </option>
+              <option value='27,73,876'>34 Seater</option>
+              <option value='26,45,257'>39 Seater</option>
+            </select>
+          </div>
           <small className='text-danger'>
-            <sup>*</sup>Prices are subjected to change at anytime, final price
+            <sup>*</sup> Prices are subjected to change at any time, final price
             will be shared at showroom.
           </small>
           <p>
@@ -151,7 +170,7 @@ const TitleWithImg = () => {
             travel for children.
           </small>
           <p className='d-flex mt-2 fw-bold fst-italic'>
-            Available Colors :
+            Available Colors:
             <Button
               className='btn rounded-0 mx-2 border border-2'
               style={{ backgroundColor: '#e9bc1b' }}
