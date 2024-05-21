@@ -14,10 +14,10 @@ import { toast } from 'react-toastify';
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 const banners = [
-  {
-    id: 1,
-    banner_img: require('../../../img/BADA-DOST/Saboo Autozone Bada Dost i1 Home Banner.webp'),
-  },
+  // {
+  //   id: 1,
+  //   banner_img: require('../../../img/BADA-DOST/Saboo Autozone Bada Dost i1 Home Banner.webp'),
+  // },
   {
     id: 2,
     banner_img: require('../../../img/BADA-DOST/Saboo Autozone Bada Dost i2 Home Banner.webp'),

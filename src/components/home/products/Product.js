@@ -62,7 +62,7 @@ function Product() {
                       height={24}
                       alt='payload'
                     />
-                    <span className='text-muted'> 1400 kg</span>
+                    <span className='text-muted'> 1860 kg</span>
                   </div>
                 </div>
                 <div className='d-flex flex-column'>

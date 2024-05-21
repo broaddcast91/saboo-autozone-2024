@@ -58,25 +58,11 @@ function Footer() {
               </h4>
               <ul className='webintern-footer-list'>
                 <li>
-                  <Link to='/bada-dost-i1-on-road-price-in-hyderabad'>
-                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i1
-                  </Link>
-                </li>
-                <li>
                   <Link to='/bada-dost-i2-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland BADA DOST i2
                   </Link>
                 </li>
-                <li>
-                  <Link to='/bada-dost-i3-on-road-price-in-hyderabad'>
-                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i3
-                  </Link>
-                </li>
-                <li>
-                  <Link to='/bada-dost-i3-plus-on-road-price-in-hyderabad'>
-                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i3+
-                  </Link>
-                </li>
+
                 <li>
                   <Link to='/bada-dost-i4-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland BADA DOST i4
@@ -110,6 +96,11 @@ function Footer() {
                 <li>
                   <Link to='/dost-cng-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland DOST CNG
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/dost-plus-cng-on-road-price-in-hyderabad'>
+                    <FaAngleDoubleRight /> Ashok Leyland DOST+ CNG
                   </Link>
                 </li>
                 <li>

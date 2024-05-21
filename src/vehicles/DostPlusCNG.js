@@ -10,61 +10,58 @@ import { toast } from 'react-toastify';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 
-function Partner6Tyre() {
+function DostPlusCNG() {
   return (
     <>
       <Helmet>
-        <title>
-          Ashok Leyland Partner 6 Tire on Road Price in Hyderabad | Mileage &
-          Specifications
-        </title>
+        <title>Ashok Leyland Dost+ CNG Price in Hyderabad | Dost Mileage</title>
         <meta
           name='title'
-          content='Ashok Leyland Partner 6 Tire on Road Price in Hyderabad | Mileage & Specifications'
+          content='Ashok Leyland Dost+ CNG Price in Hyderabad | Dost Mileage'
         />
         <meta
           name='description'
-          content='Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications,mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers.'
+          content='Ashok Leyland Dost+ CNG on-road price in Hyderabad starts from ₹ 5.63* lakh. Check out Ashok Leyland DOST CNG specifications, mileage, specifications, features & best offers at Saboo AutoZone showrooms or call us 91002 55555.'
         />
         <meta
           name='keywords'
-          content='Ashok Leyland Partner Price, Specifications, Features & Mileage'
+          content='Ashok Leyland Dost+ CNG Price, Specifications, Features & Mileage'
         />
         <meta name='author' content='Broaddcast' />
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://www.sabooautozone.com/' />
         <meta
           property='og:title'
-          content='Ashok Leyland Partner 6 Tire on Road Price in Hyderabad | Mileage & Specifications'
+          content='Ashok Leyland Dost+ CNG Price in Hyderabad | Dost Mileage'
         />
         <meta
           property='og:description'
-          content='Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications,mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers.'
+          content='Ashok Leyland Dost+ CNG on-road price in Hyderabad starts from ₹ 5.63* lakh. Check out Ashok Leyland DOST CNG specifications, mileage, specifications, features & best offers at Saboo AutoZone showrooms or call us 91002 55555.'
         />
         <meta
           property='og:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-partner.jpg'
+          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-dost-cng.jpg'
         />
         <meta property='twitter:card' content='summary_large_image' />
         <meta property='twitter:url' content='https://www.sabooautozone.com/' />
         <meta
           property='twitter:title'
-          content='Ashok Leyland Partner 6 Tire on Road Price in Hyderabad | Mileage & Specifications'
+          content='Ashok Leyland Dost+ CNG Price in Hyderabad | Dost Mileage'
         />
         <meta
           property='twitter:description'
-          content='Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications,mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers.'
+          content='Ashok Leyland Dost+ CNG on-road price in Hyderabad starts from ₹ 5.63* lakh. Check out Ashok Leyland DOST CNG specifications, mileage, specifications, features & best offers at Saboo AutoZone showrooms or call us 91002 55555.'
         />
         <meta
           property='twitter:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-partner.jpg'
+          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-dost-cng.jpg'
         />
       </Helmet>
       <Header />
-      <Partner6TyreBanner />
+      <DostCNGBanner />
       <div className='container my-5'>
         <TitleWithImg />
-        <SpecsPartner6t />
+        <Specsi3 />
         <VehicleForm />
         <TechSpecs />
         <Footer />
@@ -73,12 +70,12 @@ function Partner6Tyre() {
   );
 }
 
-const Partner6TyreBanner = () => {
+const DostCNGBanner = () => {
   return (
     <>
       <img
         className='mw-100 w-100'
-        src={require('../img/Ashok-Leyland-partner-6tyre-banner.webp')}
+        src={require('../img/dost-cng-banner-1.webp')}
         alt='dost-banner'
       />
       <div className='container-fluid bg-white py-3 shadow-sm'>
@@ -90,7 +87,8 @@ const Partner6TyreBanner = () => {
               </Link>
             </li>
             <li className='breadcrumb-item active' aria-current='page'>
-              Light Commercial Vehicles / Ashok Leyland Partner 6-tyre
+              Light Commercial Vehicles / Ashok Leyland Dost+ CNG on road price
+              in hyderabad
             </li>
           </ol>
         </div>
@@ -112,17 +110,14 @@ const TitleWithImg = () => {
         <div className='col-lg-6 mb-3 overflow-hidden'>
           <img
             className='my-auto mw-100 w-100'
-            src={require('../img/vehicles/autozone-truck-partner-banner-slider-1.png')}
+            src={require('../img/vehicles/Ashok-Leyland-Dost-CNG-Mileage.webp')}
             alt='Bada-Dost-i3'
           />
         </div>
         <div className='col-lg-6 mb-3'>
-          <h4>
-            Ashok Leyland PARTNER 6 Tyre Commercial Truck On Road Price In
-            Hyderabad
-          </h4>
+          <h4>Ashok Leyland DOST+ CNG On Road Price In Hyderabad</h4>
           <h5>
-            Starting from ₹ 17 Lakh <sup>*</sup>
+            Starting from ₹ 8 Lakh<sup>*</sup>
           </h5>
           <small className='text-danger'>
             <sup>*</sup>Prices are subjected to change at anytime, final price
@@ -134,24 +129,32 @@ const TitleWithImg = () => {
             </small>
           </p>
           <small>
-            The Partner is up to practically any work, on almost any terrain,
-            whether it's for intra-city products transportation or making
-            collections or deliveries in rural areas. The Partner is developed
-            to be a dependable vehicle with potential only outdone by its
-            functionality with new i-Gen BS6 Technology, with an awareness of
-            the subtleties of Indian roadways, people's mobility demands, and
-            newly implemented emission rules. With a modern cabin, impressive
-            built quality, fuel-efficient engine, and best-in-class service
-            intervals, Ashok Leyland's 'Partner' series delivers best-in-class
-            user experience, coupled with exceptional efficiency. With a
-            warranty of 3 Years or 3 Lakh Km, the vehicle delivers best-in-class
-            user experience, coupled with exceptional efficiency.
+            As a commercial vehicle platform, the Ashok Leyland Dost has become
+            one of the most popular last-mile trucks. Apart from the diesel
+            variations of this little truck, the CNG model is equally popular
+            among city dwellers. Even if the BS6 upgrade has not yet been
+            released, this engine will continue to emit new and stricter
+            emissions for a long time. The power figure may shift. Once the new
+            CNG-changed variations are commercially available, we will keep you
+            informed.
           </small>
           <p className='d-flex mt-2 fw-bold fst-italic'>
             Available Colors :
             <Button
               className='btn rounded-0 mx-2 border border-2'
               style={{ backgroundColor: '#fff' }}
+            ></Button>
+            <Button
+              className='btn rounded-0 me-2 border border-2'
+              style={{ backgroundColor: '#f1ddb7' }}
+            ></Button>
+            <Button
+              className='btn rounded-0 me-2 border border-2'
+              style={{ backgroundColor: '#1a4797' }}
+            ></Button>
+            <Button
+              className='btn rounded-0 me-2 border border-2'
+              style={{ backgroundColor: '#8a8c8e' }}
             ></Button>
           </p>
           <div>
@@ -164,10 +167,10 @@ const TitleWithImg = () => {
               get on road price
             </Button>
             <a
-              href='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/pdfs/Ashok-Leyland-Commercial-Truck-Partner-17ft-Brochure.pdf'
+              href='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/pdfs/dost-cng-brochure.pdf'
               target='_blank'
+              rel='noreferrer'
               className='btn btn-danger text-uppercase rounded-0 mb-1'
-              rel='noopener noreferrer'
               style={{ backgroundColor: '#9f2a2c' }}
             >
               <BsDownload /> download Brochure
@@ -179,10 +182,10 @@ const TitleWithImg = () => {
   );
 };
 
-const SpecsPartner6t = () => {
+const Specsi3 = () => {
   return (
     <>
-      <h4>Ashok Leyland Partner 6- Tyre Specifications and Features</h4>
+      <h4>Ashok Leyland Dost+ CNG BS6 Specifications and Features</h4>
       <div className='row'>
         <div className='col-lg-2 col-sm-4 mb-3'>
           <div
@@ -199,7 +202,7 @@ const SpecsPartner6t = () => {
                   width={54}
                 />
                 <small className='text-muted'>POWER</small>
-                <span> 140 HP</span>
+                <span> 58 HP</span>
               </div>
             </div>
           </div>
@@ -220,7 +223,7 @@ const SpecsPartner6t = () => {
                   width={54}
                 />
                 <small className='text-muted'>GVW</small>
-                <span>11/14/17ft Lb 7490 Kg</span>
+                <span>2870 Kg</span>
               </div>
             </div>
           </div>
@@ -241,9 +244,7 @@ const SpecsPartner6t = () => {
                   width={54}
                 />
                 <small className='text-muted'>WHEEL BASE</small>
-                <span>
-                  11ft LB 2820 <br /> 14ft LB 3320 <br /> 17ft LB 3955
-                </span>
+                <span> 2510 mm</span>
               </div>
             </div>
           </div>
@@ -264,7 +265,7 @@ const SpecsPartner6t = () => {
                   width={54}
                 />
                 <small className='text-muted'>ENGINE</small>
-                <span> 2953 cc</span>
+                <span> 1478 cc</span>
               </div>
             </div>
           </div>
@@ -285,7 +286,7 @@ const SpecsPartner6t = () => {
                   width={54}
                 />
                 <small className='text-muted'>FUEL TANK</small>
-                <span> 90 Ltrs</span>
+                <span>120 Lts</span>
               </div>
             </div>
           </div>
@@ -306,9 +307,7 @@ const SpecsPartner6t = () => {
                   width={54}
                 />
                 <small className='text-muted'>PAYLOAD</small>
-                <span>
-                  11ft LB 4885 <br /> 14ft LB 4775 <br /> 17ft LB 4579
-                </span>
+                <span>1390 Kg</span>
               </div>
             </div>
           </div>
@@ -383,7 +382,7 @@ const VehicleForm = () => {
     >
       <div className='row p-3 align-items-center'>
         <div className='col-lg-6 col-md-12 col-12 mt-3'>
-          <h3>Get On Road Price of Partner 6- Tyre</h3>
+          <h3>Get On Road Price of Dost+ CNG</h3>
           <small>
             Please fill out the form and we'll get back to you right away !
           </small>
@@ -516,8 +515,8 @@ const VehicleForm = () => {
         <div className='col-lg-6 col-md-12 col-12 pe-0 mt-3 overflow-hidden'>
           <img
             className='w-100'
-            src={require('../img/vehicles/autozone-truck-partner-slider-2.png')}
-            alt='Partner-6tyre-Mileage'
+            src={require('../img/vehicles/Ashok-Leyland-Dost-CNG-Mileage.webp')}
+            alt='Dost-CNG-Mileage'
           />
         </div>
       </div>
@@ -533,15 +532,26 @@ const TechSpecs = () => {
             <h4 className='mb-3 text-uppercase'>Technical Specifications</h4>
             <Accordion defaultActiveKey='0' flush>
               <Accordion.Item eventKey='0'>
-                <Accordion.Header>VARIANT</Accordion.Header>
+                <Accordion.Header>Engine</Accordion.Header>
                 <Accordion.Body>
                   <Table striped bordered hover responsive>
                     <tbody>
                       <tr>
-                        <td>Variant :</td>
-                        <td>11 ft LB</td>
-                        <td>14 ft LB</td>
-                        <td>17 ft LB</td>
+                        <td>Engine :</td>
+                        <td>1.5L, 3 Cylinder CNG (BS VI) with Turbocharger</td>
+                      </tr>
+
+                      <tr>
+                        <td>Displacement/Cubic Capacity : </td>
+                        <td>1,478 cc</td>
+                      </tr>
+                      <tr>
+                        <td>Maximum Power @ rpm : </td>
+                        <td>43.2kw (58 hp) @3300 rpm</td>
+                      </tr>
+                      <tr>
+                        <td>Maximum Torque @ rpm : </td>
+                        <td>160 Nm @1600-2400 rpm</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -553,16 +563,12 @@ const TechSpecs = () => {
                   <Table striped bordered hover responsive>
                     <tbody>
                       <tr>
-                        <td>Gross Vehicle Weight (kg) : </td>
-                        <td>7490</td>
-                        <td>7490</td>
-                        <td>7490</td>
+                        <td>Gross Vehicle Weight (GVW)in kg's : </td>
+                        <td>2870</td>
                       </tr>
                       <tr>
-                        <td>Rated Payload (FSD) (kg) : </td>
-                        <td>4885</td>
-                        <td>4775</td>
-                        <td>4579</td>
+                        <td>Payload (FSD LS variant)in kg's : </td>
+                        <td>1390</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -570,225 +576,97 @@ const TechSpecs = () => {
               </Accordion.Item>
 
               <Accordion.Item eventKey='2'>
-                <Accordion.Header>LOAD BODY DIMENSIONS</Accordion.Header>
+                <Accordion.Header>Dimensions</Accordion.Header>
                 <Accordion.Body>
                   <Table striped bordered hover responsive>
                     <tbody>
                       <tr>
-                        <td>Load Body Length (mm) : </td>
-                        <td>3415</td>
-                        <td>4230</td>
-                        <td>5275</td>
+                        <td>Wheelbase (in mm) : </td>
+                        <td>2510</td>
                       </tr>
                       <tr>
-                        <td>Load Body Width (mm) (HSD) : </td>
-                        <td>2060</td>
-                        <td>2060</td>
-                        <td>2209</td>
+                        <td>Overall length (in mm) : </td>
+                        <td>4630</td>
                       </tr>
                       <tr>
-                        <td>Side Deck Height (mm) : </td>
-                        <td colSpan={2}>FSD : 461 – HSD : 1840</td>
-                        <td>HSD : 1122</td>
+                        <td>Overall width (in mm) : </td>
+                        <td>1670</td>
+                      </tr>
+                      <tr>
+                        <td>Overall Height (in mm) : </td>
+                        <td>1930 (Unladen)</td>
+                      </tr>
+                      <tr>
+                        <td>Load body dimension (FSD) – L x B x H : </td>
+                        <td>
+                          (2645 x 1620 x 440) mm (8ft 7in x 5ft 3in x 1ft 4in)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Ground Clearance (Laden @ Rear Axle)</td>
+                        <td>200 mm</td>
                       </tr>
                     </tbody>
                   </Table>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey='3'>
-                <Accordion.Header>SUSPENSION & TYRES</Accordion.Header>
+                <Accordion.Header>Suspension</Accordion.Header>
                 <Accordion.Body>
                   <Table striped bordered hover responsive>
                     <tbody>
                       <tr>
-                        <td>Front Suspension : </td>
-                        <td colSpan={3}>
-                          Parabolic,overslung suspension with Double Acting
-                          Shock Absorbers
+                        <td>Front : </td>
+                        <td>
+                          RFS (Rigid Suspension with Parabolic Leaf and Double
+                          acting Shock absorber)
                         </td>
                       </tr>
                       <tr>
-                        <td>No of Leaf Springs (Front): </td>
-                        <td colSpan={3}>Front : 3</td>
-                      </tr>
-                      <tr>
-                        <td>Rear Suspension: </td>
-                        <td colSpan={3}>
-                          Semi-elliptic(main),overslung suspension with Double
-                          Acting Shock Absorbers
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>No of Leaf Springs (Rear): </td>
-                        <td colSpan={3}>6 main + 4 Helper</td>
-                      </tr>
-                      <tr>
-                        <td>No. of Tyres: </td>
-                        <td colSpan={3}>Front 2, Rear 4, Spare 1</td>
-                      </tr>
-                      <tr>
-                        <td>Tyre Size</td>
-                        <td colSpan={3}>7.50 x 16,16 PR</td>
-                      </tr>
-
-                      <tr>
-                        <td>Loading Platform Height (mm): </td>
-                        <td>1042</td>
-                        <td>1035</td>
-                        <td>1085</td>
-                      </tr>
-                      <tr>
-                        <td>Turning Circle Radius (TCR) (m): </td>
-                        <td>5.7</td>
-                        <td>6.75</td>
-                        <td>6.8</td>
+                        <td>Rear</td>
+                        <td>Semi elliptic overslug suspension</td>
                       </tr>
                     </tbody>
                   </Table>
                 </Accordion.Body>
               </Accordion.Item>
-
               <Accordion.Item eventKey='4'>
-                <Accordion.Header>POWERTRAIN</Accordion.Header>
+                <Accordion.Header>Performance</Accordion.Header>
                 <Accordion.Body>
                   <Table striped bordered hover responsive>
                     <tbody>
                       <tr>
-                        <td>Engine Type: </td>
-                        <td>
-                          ZD30 Diesel Engine with DDTi (Double Overhead
-                          Camshaft, Common Rail, Direct Injection, Turbo
-                          Intercooled)
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Displacement / Cubic Capacity: </td>
-                        <td>2953 cc</td>
-                      </tr>
-                      <tr>
-                        <td>Maximum Power Output (in HP): </td>
-                        <td>140 HP @ 2750 RPM</td>
-                      </tr>
-                      <tr>
-                        <td>Maximum Torque (Nm): </td>
-                        <td>360 Nm @ 1350-2750 RPM</td>
-                      </tr>
-                      <tr>
-                        <td>Clutch: </td>
-                        <td>
-                          Diaphragm Push Type,Single Dry Plate,Hydraulic
-                          actuated
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Transmission: </td>
-                        <td>
-                          Fully Syncronised 5 Speed gearbox Manual-Kinetic
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Fuel Tank Capacity (litre): </td>
-                        <td>90 litre</td>
+                        <td>Top Speed (in mm) : </td>
+                        <td>80 kmph</td>
                       </tr>
                     </tbody>
                   </Table>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey='5'>
-                <Accordion.Header>OVERALL DIMENSIONS</Accordion.Header>
+                <Accordion.Header>Steering</Accordion.Header>
                 <Accordion.Body>
                   <Table striped bordered hover responsive>
                     <tbody>
                       <tr>
-                        <td>Wheel Base (mm): </td>
-                        <td>2820</td>
-                        <td>3320</td>
-                        <td>3955</td>
-                      </tr>
-                      <tr>
-                        <td>Overall Length (mm): </td>
-                        <td>5170</td>
-                        <td>5990</td>
-                        <td> HSD : 7085</td>
-                      </tr>
-                      <tr>
-                        <td>Overall Height (mm): </td>
-                        <td colSpan={2}>FSD : 2240 HSD : 2832</td>
-                        <td>HSD : 2870</td>
+                        <td>Steering : </td>
+                        <td>Power Steering</td>
                       </tr>
                     </tbody>
                   </Table>
                 </Accordion.Body>
               </Accordion.Item>
-
               <Accordion.Item eventKey='6'>
-                <Accordion.Header>ELECTRICALS</Accordion.Header>
+                <Accordion.Header>Clutch</Accordion.Header>
                 <Accordion.Body>
                   <Table striped bordered hover responsive>
                     <tbody>
                       <tr>
-                        <td>Battery: </td>
-                        <td>1 x 75 AH</td>
-                      </tr>
-                      <tr>
-                        <td>Alternator: </td>
-                        <td>70 A (LS), 90 A (LX)</td>
-                      </tr>
-                    </tbody>
-                  </Table>
-                </Accordion.Body>
-              </Accordion.Item>
-
-              <Accordion.Item eventKey='7'>
-                <Accordion.Header>STEERING</Accordion.Header>
-                <Accordion.Body>
-                  <Table striped bordered hover responsive>
-                    <tbody>
-                      <tr>
-                        <td>Steering System : </td>
-                        <td>Power</td>
-                      </tr>
-                    </tbody>
-                  </Table>
-                </Accordion.Body>
-              </Accordion.Item>
-
-              <Accordion.Item eventKey='8'>
-                <Accordion.Header>BRAKES</Accordion.Header>
-                <Accordion.Body>
-                  <Table striped bordered hover responsive>
-                    <tbody>
-                      <tr>
-                        <td>Service Brake : </td>
-                        <td colSpan={2}>Vacuum Assist Hydraulic Brake</td>
-                        <td>Pneumatic brakes</td>
-                      </tr>
-                      <tr>
-                        <td>Exhaust Brakes / Air Brakes : </td>
-                        <td colSpan={2}>Exhaust Brakes</td>
-                        <td>Air Brakes</td>
-                      </tr>
-                      <tr>
-                        <td>Parking Brake :</td>
-                        <td colSpan={2}>
-                          Transmission mounted, Cable operated
+                        <td>Clutch : </td>
+                        <td>
+                          Diaphragm, Single dry plate, Pot type, Mechanical
+                          cable Operated
                         </td>
-                        <td>Parking brake integrated with rear brakes</td>
-                      </tr>
-                    </tbody>
-                  </Table>
-                </Accordion.Body>
-              </Accordion.Item>
-
-              <Accordion.Item eventKey='9'>
-                <Accordion.Header>PERFORMANCE</Accordion.Header>
-                <Accordion.Body>
-                  <Table striped bordered hover responsive>
-                    <tbody>
-                      <tr>
-                        <td>Grade ability : </td>
-                        <td colSpan={2}>25%</td>
-                        <td>32%</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -801,4 +679,4 @@ const TechSpecs = () => {
     </>
   );
 };
-export default Partner6Tyre;
+export default DostPlusCNG;

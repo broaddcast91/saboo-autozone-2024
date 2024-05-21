@@ -205,13 +205,14 @@ const BookServiceForm = () => {
                   value={vehicle}
                   onChange={(e) => onInputChange(e)}
                 >
-                  <option>Select</option>
+                  <option>Select Vehicle</option>
+                  <option value='Bada Dost i2'>Bada Dost i2</option>
                   <option value='Bada Dost i4'>Bada Dost i4</option>
-                  <option value='Bada Dost i3'>Bada Dost i3</option>
-                  <option value='Bada Dost i3+'>Bada Dost i3+</option>
-                  <option value='Dost+'>Dost+</option>
-                  <option value='New Dost Strong'>New Dost Strong</option>
+                  <option value='Bada Dost+'>Bada Dost+</option>
+                  <option value='Bada Dost Strong'>Bada Dost Strong</option>
+                  <option value='Dost Lite'>Dost Lite</option>
                   <option value='Dost CNG'>Dost CNG</option>
+                  <option value='Dost+ CNG'>Dost+ CNG</option>
                   <option value='Partner'>Partner</option>
                   <option value='MiTR School Bus'>MiTR School Bus</option>
                   <option value='MiTR Staff Bus'>MiTR Staff Bus</option>

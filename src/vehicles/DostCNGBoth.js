@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 
-function Partner() {
+function DostCNGBoth() {
   return (
     <>
       <Helmet>
@@ -51,34 +51,34 @@ function Partner() {
           content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-partner.jpg'
         />
         <title>
-          Ashok Leyland Partner Price in Hyderabad | Mileage & Specifications
+          Ashok Leyland Dost CNG Price in Hyderabad | Mileage & Specifications
         </title>
       </Helmet>
       <Header />
-      <PartnerBanner />
+      <DostCNGBothBanner />
       <div className='container my-5'>
         <div className='row'>
           <div className='col-6'>
-            <Link to='/partner-4-tyre-commercial-truck-on-road-price-in-hyderabad'>
+            <Link to='/dost-cng-on-road-price-in-hyderabad'>
               <img
-                src={require('../img/new-thumbnails/partner-4-tyre-ph.webp')}
+                src={require('../img/new-thumbnails/dost-cng-main-thumbnail.png')}
                 className='w-100'
                 alt='partner-4'
               />
               <h4 className='bg-secondary py-3 text-center text-white'>
-                Partner 4 Tyre
+                Dost CNG
               </h4>
             </Link>
           </div>
           <div className='col-6'>
-            <Link to='/partner-6-tyre-commercial-truck-on-road-price-in-hyderabad'>
+            <Link to='/dost-plus-cng-on-road-price-in-hyderabad'>
               <img
-                src={require('../img/new-thumbnails/partner-6-tyre-phome.webp')}
+                src={require('../img/new-thumbnails/dost-plus-cng-main-thubnail.png')}
                 className='w-100'
                 alt='partner-6'
               />
               <h4 className='bg-secondary py-3 text-center text-white'>
-                Partner 6 Tyre
+                Dost CNG Plus
               </h4>
             </Link>
           </div>
@@ -89,12 +89,12 @@ function Partner() {
   );
 }
 
-const PartnerBanner = () => {
+const DostCNGBothBanner = () => {
   return (
     <>
       <img
         className='mw-100 w-100'
-        src={require('../img/partner-banner.webp')}
+        src={require('../img/dost-cng-banner-1.webp')}
         alt='partner-banner'
       />
       <div className='container-fluid bg-white py-3 shadow-sm'>
@@ -106,8 +106,8 @@ const PartnerBanner = () => {
               </Link>
             </li>
             <li className='breadcrumb-item active' aria-current='page'>
-              Light Commercial Vehicles (LCV) / Partner Commercial Truck on road
-              price in hyderabad
+              Light Commercial Vehicles (LCV) / Dost CNG Vehicles on road price
+              in hyderabad
             </li>
           </ol>
         </div>
@@ -116,4 +116,4 @@ const PartnerBanner = () => {
   );
 };
 
-export default Partner;
+export default DostCNGBoth;

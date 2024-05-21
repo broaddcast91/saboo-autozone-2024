@@ -253,9 +253,25 @@ const MainHeader = () => {
                           </Link>
                         </li>
                         <li className='header-dropdown-link'>
-                          <Link to='/dost-cng-on-road-price-in-hyderabad'>
+                          <Link to='/dost-cng-secton-on-road-price-in-hyderabad'>
                             Ashok Leyland Dost CNG
+                            <FaCaretRight />
                           </Link>
+                          <div className='header-dropdown second'>
+                            <ul className='p-0'>
+                              <li className='header-dropdown-link'>
+                                <Link to='/dost-cng-on-road-price-in-hyderabad'>
+                                  Dost CNG
+                                </Link>
+                              </li>
+                              <li className='header-dropdown-link'>
+                                <Link to='/dost-plus-cng-on-road-price-in-hyderabad'>
+                                  Dost Plus CNG
+                                </Link>
+                              </li>
+                              <div className='arrow'></div>
+                            </ul>
+                          </div>
                         </li>
                         <li className='header-dropdown-link'>
                           <Link to='/partner-commercial-truck-on-road-price-in-hyderabad'>

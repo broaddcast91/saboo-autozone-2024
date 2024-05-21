@@ -53,6 +53,8 @@ import Dosti1 from './vehicles/Dosti1';
 import Dosti2 from './vehicles/Dosti2';
 import PrivacyPolicy from './screens/PrivacyPolicy';
 import Login from './components/Login/Login';
+import DostCNGBoth from './vehicles/DostCNGBoth';
+import DostPlusCNG from './vehicles/DostPlusCNG';
 
 const ScrollTop = () => {
   const { pathname } = useLocation();
@@ -217,6 +219,10 @@ function App() {
             element={<Partner />}
           />
           <Route
+            path='dost-cng-secton-on-road-price-in-hyderabad'
+            element={<DostCNGBoth />}
+          />
+          <Route
             path='bada-dost-i1-on-road-price-in-hyderabad'
             element={<Dosti1 />}
           />
@@ -251,6 +257,10 @@ function App() {
           <Route
             path='dost-cng-on-road-price-in-hyderabad'
             element={<DostCNG />}
+          />
+          <Route
+            path='dost-plus-cng-on-road-price-in-hyderabad'
+            element={<DostPlusCNG />}
           />
           <Route
             path='partner-4-tyre-commercial-truck-on-road-price-in-hyderabad'
