@@ -117,19 +117,25 @@ const TitleWithImg = () => {
           />
         </div>
         <div className='col-lg-6 mb-3 ps-4'>
-          <h4>Ashok Leyland DOST LiTE on road price in Hyderabad</h4>
-          <h5>
-            ₹ 8 Lakh <sup>*</sup>
+          <h4 className='fw-bold fs-2'>
+            <span className='fw-light fs-5'>Ashok Leyland</span> Dost LiTE
+            <br></br>
+            <span className='fw-light fs-6'>
+              Ex-Showroom price in Hyderabad
+            </span>
+          </h4>
+          <h5 className='text-danger'>
+            Starting from ₹ 8 Lakh <sup>*</sup>
           </h5>
           <small className='text-danger'>
             *Prices are subjected to change at anytime, final price will be
             shared at showroom.
           </small>
-          <p>
+          {/* <p>
             <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
             </small>
-          </p>
+          </p> */}
           <small>
             Ashok Leyland understands that the Powering the Dost Lite lineup is
             a similar BS-IV compliant three-cylinder 1478cc Ashok Leyland Turbo

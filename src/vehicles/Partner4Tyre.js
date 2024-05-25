@@ -117,22 +117,27 @@ const TitleWithImg = () => {
           />
         </div>
         <div className='col-lg-6 mb-3'>
-          <h4>
-            Ashok Leyland PARTNER 4 Tyre commercial Truck On Road Price In
-            Hyderabad
+          <h4 className='fw-bold fs-2'>
+            <span className='fw-light fs-5'>Ashok Leyland</span>&nbsp;Partner 4
+            Tyre <br></br>
+            <span className='fw-light fs-6'>Commercial Truck</span>
+            <br></br>
+            <span className='fw-light fs-6'>
+              Ex-Showroom price in Hyderabad
+            </span>
           </h4>
-          <h5>
+          <h5 className='text-danger'>
             Starting from ₹ 17 Lakh<sup>*</sup>
           </h5>
-          <small className='text-danger'>
+          <small className='text-secondary'>
             <sup>*</sup>Prices are subjected to change at anytime, final price
             will be shared at showroom.
           </small>
-          <p>
+          {/* <p>
             <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
             </small>
-          </p>
+          </p> */}
           <small>
             The Partner is up to practically any work, on almost any terrain,
             whether it's for intra-city products transportation or making

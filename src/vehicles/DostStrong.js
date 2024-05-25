@@ -119,19 +119,25 @@ const TitleWithImg = () => {
           />
         </div>
         <div className='col-lg-6 mb-3 ps-4'>
-          <h4>Ashok Leyland New DOST Strong on road price in Hyderabad</h4>
-          <h5>
+          <h4 className='fw-bold fs-2'>
+            <span className='fw-light fs-5'>Ashok Leyland</span> Bada Dost
+            Strong <br></br>
+            <span className='fw-light fs-6'>
+              Ex-Showroom price in Hyderabad
+            </span>
+          </h4>
+          <h5 className='text-danger'>
             Starting from ₹ 8 Lakh<sup>*</sup>
           </h5>
-          <small className='text-danger'>
+          <small className='text-secondary'>
             <sup>*</sup>Prices are subjected to change at anytime, final price
             will be shared at showroom.
           </small>
-          <p>
+          {/* <p>
             <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
             </small>
-          </p>
+          </p> */}
           <small>
             Ashok Leyland recognizes that a country's economic stability is
             dependent on the safe and timely delivery of commodities, and
@@ -437,7 +443,7 @@ const VehicleForm = () => {
                   value={vehicle}
                   onChange={(e) => onInputChange(e)}
                 >
-                              <option>Select Vehicle</option>
+                  <option>Select Vehicle</option>
                   <option value='Bada Dost i2'>Bada Dost i2</option>
                   <option value='Bada Dost i4'>Bada Dost i4</option>
                   <option value='Bada Dost+'>Bada Dost+</option>

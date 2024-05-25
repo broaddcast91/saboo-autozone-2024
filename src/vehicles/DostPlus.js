@@ -131,14 +131,14 @@ const TitleWithImg = () => {
           />
         </div>
         <div className='col-lg-6 mb-3 ps-4'>
-          <h4>
-            {language === '2'
-              ? 'హైదరాబాద్‌లో అశోక్ లేలాండ్ దోస్ట్ ప్లస్ ఆన్ రోడ్ ధర'
-              : language === '3'
-              ? 'अशोक लीलैंड दोस्त प्लस की हैदराबाद में कीमत'
-              : 'Ashok Leyland DOST Plus on road price in Hyderabad'}
+          <h4 className='fw-bold fs-2'>
+            <span className='fw-light fs-5'>Ashok Leyland</span>&nbsp;DOST Plus{' '}
+            <br></br>
+            <span className='fw-light fs-6'>
+              Ex-Showroom price in Hyderabad
+            </span>
           </h4>
-          <h5>
+          <h5 className='text-danger'>
             Starting from ₹ 8 Lakh<sup>*</sup>
           </h5>
           <small className='text-danger'>
@@ -149,11 +149,11 @@ const TitleWithImg = () => {
               ? 'कीमतों में किसी भी समय परिवर्तन किया जा सकता है, अंतिम कीमत शोरूम में साझा की जाएगी'
               : 'Prices are subjected to change at anytime, final price will beshared at showroom.'}
           </small>
-          <p>
+          {/* <p>
             <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
             </small>
-          </p>
+          </p> */}
           <small>
             Ashok Leyland recognizes that a country's economic stability is
             dependent on the safe and timely delivery of commodities, and

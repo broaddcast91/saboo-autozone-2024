@@ -117,12 +117,18 @@ const TitleWithImg = () => {
           />
         </div>
         <div className='col-lg-6 mb-3 ps-4'>
-          <h4>Ashok Leyland BADA DOST i1 on road price in Hyderabad</h4>
+          <h4 className='fw-bold fs-2'>
+            <span className='fw-light fs-5'>Ashok Leyland</span> BADA DOST i1{' '}
+            <br></br>
+            <span className='fw-light fs-6'>
+              Ex-Showroom price in Hyderabad
+            </span>
+          </h4>
           <div className='font-light text-danger'>
-            {/* <h5>
+            <h5 className='text-danger'>
               {' '}
-              Coming Soon<sup>*</sup>
-            </h5> */}
+              Starting from ₹ 9 Lakh<sup>*</sup>
+            </h5>
           </div>
 
           <small className='text-danger'>
@@ -130,9 +136,9 @@ const TitleWithImg = () => {
             shared at showroom.
           </small>
           <p>
-            <small className='text-primary'>
+            {/* <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
-            </small>
+            </small> */}
           </p>
           <small>
             The BADA DOST i1 is a big buddy that provides excellence and links

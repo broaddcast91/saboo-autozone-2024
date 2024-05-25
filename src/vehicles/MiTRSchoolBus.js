@@ -134,8 +134,16 @@ const TitleWithImg = () => {
           />
         </div>
         <div className='col-lg-6 mb-3'>
-          <h4>Ashok Leyland MiTR School Bus On Road Price In Hyderabad</h4>
-          <h5>
+          <h4 className='fw-bold fs-2'>
+            <span className='fw-light fs-5'>Ashok Leyland</span>&nbsp;MiTR
+            School Bus <br></br>
+            <span className='fw-light fs-6'>School Bus</span>
+            <br></br>
+            <span className='fw-light fs-6'>
+              Ex-Showroom price in Hyderabad
+            </span>
+          </h4>
+          <h5 className='text-danger'>
             Starting from ₹ <span>{displayText}</span> Lakh<sup>*</sup>
           </h5>
           <div className='m-3'>
@@ -152,11 +160,11 @@ const TitleWithImg = () => {
             <sup>*</sup> Prices are subjected to change at any time, final price
             will be shared at showroom.
           </small>
-          <p>
+          {/* <p>
             <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
             </small>
-          </p>
+          </p> */}
           <small>
             MiTR – the best school bus for your kids – now comes with modern
             i-Gen6 BS6 technology, which stands for dependability, operational

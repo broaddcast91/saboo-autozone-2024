@@ -115,18 +115,24 @@ const TitleWithImg = () => {
           />
         </div>
         <div className='col-lg-6 mb-3'>
-          <h4>Ashok Leyland DOST CNG On Road Price In Hyderabad</h4>
-          <h5>
+          <h4 className='fw-bold fs-2'>
+            <span className='fw-light fs-5'>Ashok Leyland</span>&nbsp;Dost CNG{' '}
+            <br></br>
+            <span className='fw-light fs-6'>
+              Ex-Showroom price in Hyderabad
+            </span>
+          </h4>
+          <h5 className='text-danger'>
             Starting from ₹ 8 Lakh<sup>*</sup>
           </h5>
-          <small className='text-danger'>
+          <small className='text-secondary'>
             <sup>*</sup>Prices are subjected to change at anytime, final price
             will be shared at showroom.
           </small>
           <p>
-            <small className='text-primary'>
+            {/* <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
-            </small>
+            </small> */}
           </p>
           <small>
             As a commercial vehicle platform, the Ashok Leyland Dost has become

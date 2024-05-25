@@ -121,15 +121,15 @@ const TitleWithImg = () => {
           <h5>
             Starting from ₹ 8.75 Lakh <sup>*</sup>
           </h5>
-          <small className='text-danger'>
+          <small className='text-secondary'>
             <sup>*</sup>Prices are subjected to change at anytime, final price
             will be shared at showroom.
           </small>
-          <p>
+          {/* <p>
             <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
             </small>
-          </p>
+          </p> */}
           <small>
             The BADA DOST i3 is a big buddy that provides excellence and links
             people and businesses - from customers' doorsteps to end users'

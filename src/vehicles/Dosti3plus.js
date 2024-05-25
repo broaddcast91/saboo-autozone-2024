@@ -121,15 +121,15 @@ const TitleWithImg = () => {
           <h5>
             ₹ Coming Soon<sup>*</sup>
           </h5>
-          <small className='text-danger'>
+          <small className='text-secondary'>
             <sup>*</sup>Prices are subjected to change at anytime, final price
             will be shared at showroom.
           </small>
-          <p>
+          {/* <p>
             <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
             </small>
-          </p>
+          </p> */}
           <small>
             BADA DOST i3+ is the big friend that delivers and connects people
             and business together – right from the doorstep of clients to

@@ -117,19 +117,25 @@ const TitleWithImg = () => {
           />
         </div>
         <div className='col-lg-6 mb-3 ps-4'>
-          <h4>Ashok Leyland BADA DOST i4 On Road Price In Hyderabad</h4>
-          <h5>
+          <h4 className='fw-bold fs-2'>
+            <span className='fw-light fs-5'>Ashok Leyland</span> BADA DOST i4{' '}
+            <br></br>
+            <span className='fw-light fs-6'>
+              Ex-Showroom price in Hyderabad
+            </span>
+          </h4>
+          <h5 className='text-danger'>
             Starting ₹ 10 Lakh <sup>*</sup>
           </h5>
-          <small className='text-danger'>
+          <small className='text-secondary'>
             <sup>*</sup>Prices are subjected to change at anytime, final price
             will be shared at showroom.
           </small>
-          <p>
+          {/* <p>
             <small className='text-primary'>
               <IoLocationOutline /> Hyderabad
             </small>
-          </p>
+          </p> */}
           <small>
             BADA DOST i4 is the big friend that delivers and connects people and
             business together - right from the doorstep of clients to reaching
