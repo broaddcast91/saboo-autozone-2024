@@ -77,7 +77,7 @@ const DostBanner = () => {
     <>
       <img
         className='mw-100 w-100'
-        src={require('../img/bada-dost-i2-banner.webp')}
+        src={require('../img/bada-dost-i2-banne.webp')}
         alt='dost-banner'
       />
       <div className='container-fluid bg-white py-3 shadow-sm'>
