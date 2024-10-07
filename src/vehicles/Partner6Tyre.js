@@ -81,11 +81,11 @@ const Partner6TyreBanner = () => {
         src={require('../img/Ashok-Leyland-partner-6tyre-banner.webp')}
         alt='dost-banner'
       />
-      <div className='container-fluid bg-white py-3 shadow-sm'>
+      <div className='py-3 bg-white shadow-sm container-fluid'>
         <div className='container'>
-          <ol className='breadcrumb mb-0'>
+          <ol className='mb-0 breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link className='text-decoration-none text-black' to='/'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>
@@ -109,14 +109,14 @@ const TitleWithImg = () => {
   return (
     <>
       <div className='row'>
-        <div className='col-lg-6 mb-3 overflow-hidden'>
+        <div className='mb-3 overflow-hidden col-lg-6'>
           <img
             className='my-auto mw-100 w-100'
             src={require('../img/vehicles/autozone-truck-partner-banner-slider-1.png')}
             alt='Bada-Dost-i3'
           />
         </div>
-        <div className='col-lg-6 mb-3'>
+        <div className='mb-3 col-lg-6'>
           <h4 className='fw-bold fs-2'>
             <span className='fw-light fs-5'>Ashok Leyland</span>&nbsp;Partner 6
             Tyre <br></br>
@@ -152,17 +152,17 @@ const TitleWithImg = () => {
             warranty of 3 Years or 3 Lakh Km, the vehicle delivers best-in-class
             user experience, coupled with exceptional efficiency.
           </small>
-          <p className='d-flex mt-2 fw-bold fst-italic'>
+          <p className='mt-2 d-flex fw-bold fst-italic'>
             Available Colors :
             <Button
-              className='btn rounded-0 mx-2 border border-2'
+              className='mx-2 border border-2 btn rounded-0'
               style={{ backgroundColor: '#fff' }}
             ></Button>
           </p>
           <div>
             <Button
               variant='outline-danger me-2 text-uppercase rounded-0'
-              className='btn-hover mb-1'
+              className='mb-1 btn-hover'
               style={{ border: '1px solid #9f2a2c', color: '#9f2a2c' }}
               onClick={handleScrollToComponent}
             >
@@ -171,7 +171,7 @@ const TitleWithImg = () => {
             <a
               href='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/pdfs/Ashok-Leyland-Commercial-Truck-Partner-17ft-Brochure.pdf'
               target='_blank'
-              className='btn btn-danger text-uppercase rounded-0 mb-1'
+              className='mb-1 btn btn-danger text-uppercase rounded-0'
               rel='noopener noreferrer'
               style={{ backgroundColor: '#9f2a2c' }}
             >
@@ -189,13 +189,13 @@ const SpecsPartner6t = () => {
     <>
       <h4>Ashok Leyland Partner 6- Tyre Specifications and Features</h4>
       <div className='row'>
-        <div className='col-lg-2 col-sm-4 mb-3'>
+        <div className='mb-3 col-lg-2 col-sm-4'>
           <div
-            className='card bg-light shadow-sm'
+            className='shadow-sm card bg-light'
             style={{ border: '1px solid #eee' }}
           >
             <div className='card-body'>
-              <div className='d-flex flex-column text-center'>
+              <div className='text-center d-flex flex-column'>
                 <img
                   src={require('../img/power.webp')}
                   className='mx-auto mb-2'
@@ -210,13 +210,13 @@ const SpecsPartner6t = () => {
           </div>
         </div>
 
-        <div className='col-lg-2 col-sm-4 mb-3'>
+        <div className='mb-3 col-lg-2 col-sm-4'>
           <div
-            className='card bg-light shadow-sm'
+            className='shadow-sm card bg-light'
             style={{ border: '1px solid #eee' }}
           >
             <div className='card-body'>
-              <div className='d-flex flex-column text-center'>
+              <div className='text-center d-flex flex-column'>
                 <img
                   src={require('../img/gvw.webp')}
                   className='mx-auto mb-2'
@@ -231,13 +231,13 @@ const SpecsPartner6t = () => {
           </div>
         </div>
 
-        <div className='col-lg-2 col-sm-4 mb-3'>
+        <div className='mb-3 col-lg-2 col-sm-4'>
           <div
-            className='card bg-light shadow-sm'
+            className='shadow-sm card bg-light'
             style={{ border: '1px solid #eee' }}
           >
             <div className='card-body'>
-              <div className='d-flex flex-column text-center'>
+              <div className='text-center d-flex flex-column'>
                 <img
                   src={require('../img/wheel-base.webp')}
                   className='mx-auto mb-2'
@@ -254,13 +254,13 @@ const SpecsPartner6t = () => {
           </div>
         </div>
 
-        <div className='col-lg-2 col-sm-4 mb-3'>
+        <div className='mb-3 col-lg-2 col-sm-4'>
           <div
-            className='card bg-light shadow-sm'
+            className='shadow-sm card bg-light'
             style={{ border: '1px solid #eee' }}
           >
             <div className='card-body'>
-              <div className='d-flex flex-column text-center'>
+              <div className='text-center d-flex flex-column'>
                 <img
                   src={require('../img/engine.webp')}
                   className='mx-auto mb-2'
@@ -275,13 +275,13 @@ const SpecsPartner6t = () => {
           </div>
         </div>
 
-        <div className='col-lg-2 col-sm-4 mb-3'>
+        <div className='mb-3 col-lg-2 col-sm-4'>
           <div
-            className='card bg-light shadow-sm'
+            className='shadow-sm card bg-light'
             style={{ border: '1px solid #eee' }}
           >
             <div className='card-body'>
-              <div className='d-flex flex-column text-center'>
+              <div className='text-center d-flex flex-column'>
                 <img
                   src={require('../img/fuel.webp')}
                   className='mx-auto mb-2'
@@ -296,13 +296,13 @@ const SpecsPartner6t = () => {
           </div>
         </div>
 
-        <div className='col-lg-2 col-sm-4 mb-3'>
+        <div className='mb-3 col-lg-2 col-sm-4'>
           <div
-            className='card bg-light shadow-sm'
+            className='shadow-sm card bg-light'
             style={{ border: '1px solid #eee' }}
           >
             <div className='card-body'>
-              <div className='d-flex flex-column text-center'>
+              <div className='text-center d-flex flex-column'>
                 <img
                   src={require('../img/payload.webp')}
                   className='mx-auto mb-2'
@@ -365,11 +365,7 @@ const VehicleForm = () => {
         user
       );
 
-      // Second API Call
-      await axios.post(
-        'https://saboogroups.com/autozone/api/on-road-price',
-        user
-      );
+    
 
       // Handle responses and navigation
       toast.success('Your request has been submitted successfully');
@@ -383,19 +379,19 @@ const VehicleForm = () => {
   };
   return (
     <div
-      className='container shadow rounded-3 border my-5'
+      className='container my-5 border shadow rounded-3'
       id='onRoadPriceComponent'
     >
-      <div className='row p-3 align-items-center'>
-        <div className='col-lg-6 col-md-12 col-12 mt-3'>
+      <div className='p-3 row align-items-center'>
+        <div className='mt-3 col-lg-6 col-md-12 col-12'>
           <h3>Get On Road Price of Partner 6- Tyre</h3>
           <small>
             Please fill out the form and we'll get back to you right away !
           </small>
 
           <form onSubmit={(e) => onSubmit(e)}>
-            <div className='row mt-4'>
-              <div className='col-md-6 mb-3'>
+            <div className='mt-4 row'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Name</label>
                 <input
                   type='text'
@@ -406,7 +402,7 @@ const VehicleForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Email</label>
                 <input
                   type='email'
@@ -417,7 +413,7 @@ const VehicleForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Phone</label>
                 <input
                   type='text'
@@ -430,7 +426,7 @@ const VehicleForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Model</label>
                 <select
                   className='form-select'
@@ -453,8 +449,8 @@ const VehicleForm = () => {
                 </select>
               </div>
 
-              <div className='col-md-12  mb-3'>
-                <div className='d-flex flex-row'>
+              <div className='mb-3 col-md-12'>
+                <div className='flex-row d-flex'>
                   <Form.Check
                     className='me-3'
                     type='radio'
@@ -476,7 +472,7 @@ const VehicleForm = () => {
                 </div>
               </div>
 
-              <div className='col-md-12 mb-3'>
+              <div className='mb-3 col-md-12'>
                 <label className='form-label'>Outlet</label>
                 <select
                   className='form-select'
@@ -509,7 +505,7 @@ const VehicleForm = () => {
             </Form.Group>
 
             <Button
-              className='btn btn-success mt-4 text-uppercase px-5'
+              className='px-5 mt-4 btn btn-success text-uppercase'
               type='submit'
               disabled={buttonclick}
             >
@@ -518,7 +514,7 @@ const VehicleForm = () => {
           </form>
         </div>
 
-        <div className='col-lg-6 col-md-12 col-12 pe-0 mt-3 overflow-hidden'>
+        <div className='mt-3 overflow-hidden col-lg-6 col-md-12 col-12 pe-0'>
           <img
             className='w-100'
             src={require('../img/vehicles/autozone-truck-partner-slider-2.png')}
@@ -532,9 +528,9 @@ const VehicleForm = () => {
 const TechSpecs = () => {
   return (
     <>
-      <div className='container shadow rounded border my-5'>
-        <div className='row p-3 align-items-center'>
-          <div className='col-lg-12 col-md-12 col-12 mt-3'>
+      <div className='container my-5 border rounded shadow'>
+        <div className='p-3 row align-items-center'>
+          <div className='mt-3 col-lg-12 col-md-12 col-12'>
             <h4 className='mb-3 text-uppercase'>Technical Specifications</h4>
             <Accordion defaultActiveKey='0' flush>
               <Accordion.Item eventKey='0'>

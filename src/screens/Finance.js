@@ -73,11 +73,11 @@ const FinanceBanner = () => {
         src={require('../img/finance-banner.webp')}
         alt='finance-banner'
       />
-      <div className='container-fluid bg-white py-3 shadow-sm'>
+      <div className='py-3 bg-white shadow-sm container-fluid'>
         <div className='container'>
-          <ol className='breadcrumb mb-0'>
+          <ol className='mb-0 breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link className='text-decoration-none text-black' to='/'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>
@@ -154,9 +154,7 @@ const FinanceForm = () => {
       // First API Call
       await axios.post('https://autozone-backend.onrender.com/finance', user);
 
-      // Second API Call
-      await axios.post('https://saboogroups.com/autozone/api/finance', user);
-
+     
       // Handle responses and navigation
       toast.success('Your finance request has been submitted successfully');
       navigate('/thank-you');
@@ -169,9 +167,9 @@ const FinanceForm = () => {
   };
 
   return (
-    <div className='container shadow rounded border my-5'>
-      <div className='row p-3 align-items-center'>
-        <div className='col-lg-6 col-md-12 col-12 mt-3 border-end'>
+    <div className='container my-5 border rounded shadow'>
+      <div className='p-3 row align-items-center'>
+        <div className='mt-3 col-lg-6 col-md-12 col-12 border-end'>
           <h3>Ashok Leyland Commercial Trucks Financial Services</h3>
           <small>
             Please fill out the form and we'll get back to you right away !
@@ -181,7 +179,7 @@ const FinanceForm = () => {
             {/* My Contact Details */}
             <h6 className='my-4'>My Contact Details</h6>
             <div className='row'>
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Name</label>
                 <input
                   type='text'
@@ -192,7 +190,7 @@ const FinanceForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Email</label>
                 <input
                   type='email'
@@ -203,7 +201,7 @@ const FinanceForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Phone</label>
                 <input
                   type='text'
@@ -216,7 +214,7 @@ const FinanceForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Outlet</label>
                 <select
                   className='form-select'
@@ -241,7 +239,7 @@ const FinanceForm = () => {
                 </select>
               </div>
 
-              <div className='col-md-12 mb-3'>
+              <div className='mb-3 col-md-12'>
                 <label className='form-label'>Message</label>
                 <textarea
                   className='form-control'
@@ -256,7 +254,7 @@ const FinanceForm = () => {
             {/* Share Loan Requirements */}
             <h6 className='my-4'>Share Loan Requirements</h6>
             <div className='row'>
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Model</label>
                 <select
                   className='form-select'
@@ -279,7 +277,7 @@ const FinanceForm = () => {
                 </select>
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Purchase Time</label>
                 <select
                   className='form-select'
@@ -298,7 +296,7 @@ const FinanceForm = () => {
                 </select>
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Loan Amount</label>
                 <input
                   type='text'
@@ -310,7 +308,7 @@ const FinanceForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Loan Duration In Years</label>
                 <select
                   className='form-select'
@@ -336,7 +334,7 @@ const FinanceForm = () => {
             </Form.Group>
 
             <Button
-              className='btn btn-success mt-4 text-uppercase px-5'
+              className='px-5 mt-4 btn btn-success text-uppercase'
               type='submit'
               disabled={buttonloader}
             >
@@ -345,7 +343,7 @@ const FinanceForm = () => {
           </form>
         </div>
 
-        <div className='col-lg-6 col-md-12 col-12 pe-0 mt-3'>
+        <div className='mt-3 col-lg-6 col-md-12 col-12 pe-0'>
           <img
             className='mw-100 mh-100 py-auto'
             src={require('../img/finance-images.webp')}

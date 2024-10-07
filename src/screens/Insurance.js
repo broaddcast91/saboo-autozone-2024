@@ -74,11 +74,11 @@ const InsuranceBanner = () => {
         src={require('../img/insurance-banner.webp')}
         alt='insurance-banner'
       />
-      <div className='container-fluid bg-white py-3 shadow-sm'>
+      <div className='py-3 bg-white shadow-sm container-fluid'>
         <div className='container'>
-          <ol className='breadcrumb mb-0'>
+          <ol className='mb-0 breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link className='text-decoration-none text-black' to='/'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>
@@ -172,19 +172,7 @@ const InsuranceForm = () => {
         });
 
         // Second API Call
-        await axios.post('https://saboogroups.com/autozone/api/insurance', {
-          name,
-          email,
-          mobile,
-          model,
-          registerationnumber,
-          registerationyear,
-          claim,
-          policynumber,
-          insurancecompany,
-          insuranceexpiry,
-        });
-
+      
         // Handle responses and navigation
         toast.success('Your insurance request has been submitted successfully');
         navigate('/thank-you');
@@ -198,9 +186,9 @@ const InsuranceForm = () => {
   };
 
   return (
-    <div className='container shadow rounded border my-5'>
-      <div className='row p-3'>
-        <div className='col-lg-12 col-md-12 col-12 mt-3'>
+    <div className='container my-5 border rounded shadow'>
+      <div className='p-3 row'>
+        <div className='mt-3 col-lg-12 col-md-12 col-12'>
           <h3>Insurance Form</h3>
           <small>
             Please fill out the form and we'll get back to you right away !
@@ -210,7 +198,7 @@ const InsuranceForm = () => {
             {/* My Car Details */}
             <h6 className='my-4'>My Car Details</h6>
             <div className='row'>
-              <div className='col-md-4 mb-3'>
+              <div className='mb-3 col-md-4'>
                 <label className='form-label'>
                   Model <span className='text-danger'>*</span>
                 </label>
@@ -234,7 +222,7 @@ const InsuranceForm = () => {
                 </select>
               </div>
 
-              <div className='col-md-4 mb-3'>
+              <div className='mb-3 col-md-4'>
                 <label className='form-label'>
                   Registration Number <span className='text-danger'>*</span>
                 </label>
@@ -246,7 +234,7 @@ const InsuranceForm = () => {
                 />
               </div>
 
-              <div className='col-md-4 mb-3'>
+              <div className='mb-3 col-md-4'>
                 <label className='form-label'>
                   Registration Year <span className='text-danger'>*</span>
                 </label>
@@ -258,7 +246,7 @@ const InsuranceForm = () => {
                 />
               </div>
 
-              {/* <div className="col-md-6 mb-3">
+              {/* <div className="mb-3 col-md-6">
                 <Form.Group controlId="rc">
                   <Form.Label>Vehicle RC</Form.Label>
                   <Form.Control
@@ -268,7 +256,7 @@ const InsuranceForm = () => {
                 </Form.Group>
               </div>
 
-              <div className="col-md-6 mb-3">
+              <div className="mb-3 col-md-6">
                 <Form.Group controlId="insurance">
                   <Form.Label>Vehicle Insurance</Form.Label>
                   <Form.Control
@@ -282,7 +270,7 @@ const InsuranceForm = () => {
             {/* Existing Policy */}
             <h6 className='my-4'>Existing Policy</h6>
             <div className='row'>
-              <div className='col-md-4 mb-3'>
+              <div className='mb-3 col-md-4'>
                 <label className='form-label'>
                   Policy Number <span className='text-danger'>*</span>
                 </label>
@@ -294,7 +282,7 @@ const InsuranceForm = () => {
                 />
               </div>
 
-              <div className='col-md-4 mb-3'>
+              <div className='mb-3 col-md-4'>
                 <label className='form-label'>
                   Insurance Company <span className='text-danger'>*</span>
                 </label>
@@ -306,7 +294,7 @@ const InsuranceForm = () => {
                 />
               </div>
 
-              <div className='col-md-4 mb-3'>
+              <div className='mb-3 col-md-4'>
                 <label className='form-label'>
                   Insurance Expiry Date <span className='text-danger'>*</span>
                 </label>
@@ -322,7 +310,7 @@ const InsuranceForm = () => {
             {/* My Contact Details */}
             <h6 className='my-4'>My Contact Details</h6>
             <div className='row'>
-              <div className='col-md-3 mb-3'>
+              <div className='mb-3 col-md-3'>
                 <label className='form-label'>
                   Name <span className='text-danger'>*</span>
                 </label>
@@ -334,7 +322,7 @@ const InsuranceForm = () => {
                 />
               </div>
 
-              <div className='col-md-3 mb-3'>
+              <div className='mb-3 col-md-3'>
                 <label className='form-label'>Email</label>
                 <input
                   type='email'
@@ -344,7 +332,7 @@ const InsuranceForm = () => {
                 />
               </div>
 
-              <div className='col-md-3 mb-3'>
+              <div className='mb-3 col-md-3'>
                 <label className='form-label'>
                   Phone <span className='text-danger'>*</span>
                 </label>
@@ -357,7 +345,7 @@ const InsuranceForm = () => {
                 />
               </div>
 
-              <div className='col-md-3 mb-3'>
+              <div className='mb-3 col-md-3'>
                 <label className='form-label'>
                   Select Claim <span className='text-danger'>*</span>
                 </label>
@@ -381,7 +369,7 @@ const InsuranceForm = () => {
             </Form.Group>
 
             <Button
-              className='btn btn-success mt-4 text-uppercase px-5'
+              className='px-5 mt-4 btn btn-success text-uppercase'
               type='submit'
               disabled={buttonloader}
             >

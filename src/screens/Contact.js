@@ -71,11 +71,11 @@ const ContactBanner = () => {
         src={require('../img/contact-banner.webp')}
         alt='service-banner'
       />
-      <div className='container-fluid bg-white py-3 shadow-sm'>
+      <div className='py-3 bg-white shadow-sm container-fluid'>
         <div className='container'>
-          <ol className='breadcrumb mb-0'>
+          <ol className='mb-0 breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link className='text-decoration-none text-black' to='/'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>
@@ -128,9 +128,7 @@ const ContactForm = () => {
 
     try {
       // First API Call
-      await axios.post('https://saboogroups.com/autozone/api/contact', user);
-
-      // Second API Call
+        // Second API Call
       await axios.post('https://autozone-backend.onrender.com/contatUs', user);
 
       // Handle responses and navigation
@@ -149,17 +147,17 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='container shadow rounded border my-5'>
-      <div className='row p-3 align-items-center'>
-        <div className='col-lg-6 col-md-12 col-12 mt-3 border-end'>
+    <div className='container my-5 border rounded shadow'>
+      <div className='p-3 row align-items-center'>
+        <div className='mt-3 col-lg-6 col-md-12 col-12 border-end'>
           <h3>GOT A QUESTION?</h3>
           <small>
             Please fill out the form and we'll get back to you right away !
           </small>
 
           <form onSubmit={(e) => onSubmit(e)}>
-            <div className='row mt-4'>
-              <div className='col-md-6 mb-3'>
+            <div className='mt-4 row'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Name</label>
                 <input
                   type='text'
@@ -170,7 +168,7 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Email</label>
                 <input
                   type='email'
@@ -181,7 +179,7 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Phone</label>
                 <input
                   type='text'
@@ -194,7 +192,7 @@ const ContactForm = () => {
                 />
               </div>
 
-              <div className='col-md-6 mb-3'>
+              <div className='mb-3 col-md-6'>
                 <label className='form-label'>Outlet</label>
                 <select
                   className='form-select'
@@ -218,8 +216,8 @@ const ContactForm = () => {
                   <option value='Vikarabad'>Vikarabad</option>
                 </select>
               </div>
-              <div className='col-md-6  mb-3'>
-                <div className='d-flex flex-row'>
+              <div className='mb-3 col-md-6'>
+                <div className='flex-row d-flex'>
                   <Form.Check
                     className='me-3'
                     type='radio'
@@ -250,7 +248,7 @@ const ContactForm = () => {
                 </div>
               </div>
             </div>
-            <div className='col-md-12 mb-3'>
+            <div className='mb-3 col-md-12'>
               <label className='form-label'>Message</label>
               <textarea
                 className='form-control'
@@ -267,7 +265,7 @@ const ContactForm = () => {
             </Form.Group>
 
             <Button
-              className='btn btn-success mt-4 text-uppercase px-5'
+              className='px-5 mt-4 btn btn-success text-uppercase'
               type='submit'
               disabled={buttonloader}
             >
@@ -276,16 +274,16 @@ const ContactForm = () => {
           </form>
         </div>
 
-        <div className='col-lg-6 col-md-12 col-12 pe-0 mt-3'>
+        <div className='mt-3 col-lg-6 col-md-12 col-12 pe-0'>
           <a
             href='tel:9100255555'
-            className='btn btn-danger mb-3 me-3 text-decoration-none'
+            className='mb-3 btn btn-danger me-3 text-decoration-none'
           >
             <MdPhoneInTalk /> +91 9100255555
           </a>
           <a
             href='mailto:sales@sabooautozone.com'
-            className='btn btn-danger mb-3 text-decoration-none'
+            className='mb-3 btn btn-danger text-decoration-none'
           >
             <MdPhoneInTalk /> sales@sabooautozone.com
           </a>

@@ -64,7 +64,8 @@ const ScrollTop = () => {
   return null;
 };
 
-axios.defaults.baseURL = 'https://saboogroups.com/autozone/api/';
+axios.defaults.baseURL = "https://autozone-8azp.onrender.com";
+// axios.defaults.baseURL = 'https://saboogroups.com/autozone/api/';
 // axios.defaults.secondBaseURL = 'https://autozone-8azp.onrender.com/';
 
 function App() {
@@ -140,7 +141,7 @@ function App() {
               />
             </Form.Group>
 
-            <div className='d-flex justify-content-center my-3'>
+            <div className='my-3 d-flex justify-content-center'>
               <div className='d-flex align-items-center me-5'>
                 <FaWhatsapp style={{ color: 'green' }} />
                 <a
