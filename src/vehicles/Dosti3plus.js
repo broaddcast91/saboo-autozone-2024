@@ -15,30 +15,35 @@ function Dosti3plus() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland Bada Dost On Road Price in Hyderabad | Saboo AutoZone
+          Ashok Leyland Bada Dost i3Plus On Road Price in Hyderabad – Best
+          festive offers.| Saboo AutoZone today.
         </title>
         <meta
           name="title"
-          content="Ashok Leyland Bada Dost On Road Price in Hyderabad | Saboo AutoZone"
+          content="Ashok Leyland Bada Dost i3Plus On Road Price in Hyderabad – Best festive
+          offers.| Saboo AutoZone today."
         />
         <meta
           name="description"
-          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 8.52 lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
+          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 10lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Bada Dost i3 Price, Specifications, Features & Mileage"
+          content="Ashok Leyland Bada Dost i3 plus Price, Specifications, Features & Mileage,Ashok Leyland Bada Dost i3plus Price,Ashok Leyland Bada Dost i3 plus Specifications,Ashok Leyland Bada Dost i3plus Features,Ashok Leyland Bada Dost i3plus Mileage,2025 Ashok Leyland Bada Dost i3plus Festive Offers,
+                   Best Price Ashok Leyland Bada Dost i3plus 2025,Ashok Leyland Bada Dost i3plus on-road Price Hyderabad,Ashok Leyland Bada Dost i3 plus Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
+                   Ashok Leyland Bada Dost i3plus Discount Offers"
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland Bada Dost On Road Price in Hyderabad | Saboo AutoZone"
+          content="Ashok Leyland Bada Dost i3Plus On Road Price in Hyderabad – Best festive
+          offers.| Saboo AutoZone today."
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 8.52 lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
+          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 10lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
         />
         <meta
           property="og:image"
@@ -48,11 +53,12 @@ function Dosti3plus() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland Bada Dost On Road Price in Hyderabad | Saboo AutoZone"
+          content="Ashok Leyland Bada Dost i3Plus On Road Price in Hyderabad – Best festive
+          offers.| Saboo AutoZone today."
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 8.52 lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
+          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 10lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
         />
         <meta
           property="twitter:image"

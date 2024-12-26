@@ -23,10 +23,14 @@ function MiTRStaffBus() {
   return (
     <>
       <Helmet>
-        <title>Mitr Staff Bus Price in Hyderabad | Saboo AutoZone</title>
+        <title>
+          Mitr Staff Bus Price in Hyderabad– Best festive offers | Saboo
+          AutoZone today.
+        </title>
         <meta
           name="title"
-          content="Mitr Staff Bus Price in Hyderabad | Saboo AutoZone"
+          content="Mitr Staff Bus Price in Hyderabad – Best festive
+          offers | Saboo AutoZone today."
         />
         <meta
           name="description"
@@ -34,14 +38,17 @@ function MiTRStaffBus() {
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Mitr Staff bus Price, Specifications, Features & Mileage"
+          content="Ashok Leyland Mitr Staff bus Price, Specifications, Features & Mileage,Ashok Leyland Mitr staff Price, Specifications, Features & Mileage,Ashok Leyland  Mitr staff Price,Ashok Leyland Mitr staff Specifications,Ashok Leyland Mitr staff Features,Ashok Leyland Mitr staff Mileage,2025 Ashok Leyland Mitr staff Festive Offers,
+                   Best Price Ashok Leyland  Mitr staff 2025,Ashok Leyland Mitr staff on-road Price Hyderabad,Ashok Leyland Mitr staff Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
+                   Ashok Leyland  Mitr staff Discount Offers"
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Mitr Staff Bus Price in Hyderabad | Saboo AutoZone"
+          content=" Mitr Staff Bus Price in Hyderabad– Best festive offers | Saboo
+          AutoZone today."
         />
         <meta
           property="og:description"
@@ -55,7 +62,8 @@ function MiTRStaffBus() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Mitr Staff Bus Price in Hyderabad | Saboo AutoZone"
+          content=" Mitr Staff Bus Price in Hyderabad – Best festive offers | Saboo
+          AutoZone today."
         />
         <meta
           property="twitter:description"

@@ -24,30 +24,35 @@ function MiTRSchoolBus() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland Mitr School Bus Price in Hyderabad | Saboo AutoZone
+          Ashok Leyland Mitr School Bus Price in Hyderabad – Best festive offers
+          | Saboo AutoZone today.
         </title>
         <meta
           name="title"
-          content="Ashok Leyland Mitr School Bus Price in Hyderabad | Saboo AutoZone"
+          content=" Ashok Leyland Mitr School Bus Price in Hyderabad – Best festive
+          offers | Saboo AutoZone today."
         />
         <meta
           name="description"
-          content="Ashok Leyland Mitr school bus 2*2, 25D on-road price in Hyderabad starts from 15.0lakh. Check out Mitr school bus 25D technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Mitr school bus 2*2, 25D on-road price in Hyderabad starts from 27,73,876lakh. Check out Mitr school bus 25D technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Partner Price, Specifications, Features & Mileage"
+          content="Ashok Leyland Partner Price, Specifications, Features & Mileage,Ashok Leyland Mitr school bus 2*2  Price, Specifications, Features & Mileage,Ashok Leyland  Mitr school bus 2*2 Price,Ashok Leyland Mitr school bus 2*2 Specifications,Ashok Leyland Mitr school bus 2*2  Features,Ashok Leyland Mitr school bus 2*2 Mileage,2025 Ashok Leyland Mitr school bus 2*2 Festive Offers,
+                   Best Price Ashok Leyland  Mitr school bus 2*2 2025,Ashok Leyland Mitr school bus 2*2 on-road Price Hyderabad,Ashok Leyland Mitr school bus 2*2  Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
+                   Ashok Leyland  Mitr school bus 2*2  Discount Offers"
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland Mitr School Bus Price in Hyderabad | Saboo AutoZone"
+          content=" Ashok Leyland Mitr School Bus Price in Hyderabad – Best festive
+          offers | Saboo AutoZone today."
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Mitr school bus 2*2, 25D on-road price in Hyderabad starts from 15.0lakh. Check out Mitr school bus 25D technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Mitr school bus 2*2, 25D on-road price in Hyderabad starts from 27,73,876lakh. Check out Mitr school bus 25D technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
         />
         <meta
           property="og:image"
@@ -57,11 +62,12 @@ function MiTRSchoolBus() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland Mitr School Bus Price in Hyderabad | Saboo AutoZone"
+          content=" Ashok Leyland Mitr School Bus Price in Hyderabad – Best festive
+          offers | Saboo AutoZone today."
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Mitr school bus 2*2, 25D on-road price in Hyderabad starts from 15.0lakh. Check out Mitr school bus 25D technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Mitr school bus 2*2, 25D on-road price in Hyderabad starts from 27,73,876lakh. Check out Mitr school bus 25D technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
         />
         <meta
           property="twitter:image"

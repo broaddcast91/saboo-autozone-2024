@@ -15,26 +15,29 @@ function Dosti1() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland Bada Dost i1 On Road Price in Hyderabad | Saboo AutoZone
+          Ashok Leyland Bada Dost i1 on-road price in Hyderabad – Best festive
+          offers. Contact and visit Saboo AutoZone today.
         </title>
         <meta
           name="title"
-          content="Ashok Leyland Bada Dost i1 On Road Price in Hyderabad | Saboo AutoZone"
+          content="Ashok Leyland Bada Dost i1 on-road price in Hyderabad – Best festive offers. Contact and visit Saboo AutoZone today."
         />
         <meta
           name="description"
-          content="Ashok Leyland Bada Dost Small Commercial Vehicle will be available in four variants i1, i2, i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 8.52 lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
+          content="Ashok Leyland Bada Dost Small Commercial Vehicle will be available in four variants i1, i2, i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 10lakh. For best festive offers Contact and visit Saboo Autozone, For more info about Bada Dost features & specifications call us 91002 55555."
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Bada Dost i1 Price, Specifications, Features & Mileage"
+          content="Ashok Leyland Bada Dost i1 Price,Ashok Leyland Bada Dost i1 Specifications,Ashok Leyland Bada Dost i1 Features,Ashok Leyland Bada Dost i1 Mileage,2025 Ashok Leyland Bada Dost i1 Festive Offers,
+                   Best Price Ashok Leyland Bada Dost i1 2025,Ashok Leyland Bada Dost i1 on-road Price Hyderabad,Ashok Leyland Bada Dost i1 Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
+                   Ashok Leyland Bada Dost i1 Discount Offers"
         />
-        <meta name="author" content="Broaddcast" />
+        <meta name="author" content="Broaddcast." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland Bada Dost i1 On Road Price in Hyderabad | Saboo AutoZone"
+          content="Ashok Leyland Bada Dost i1 on-road price in Hyderabad – Best festive offers. Contact and visit Saboo AutoZone today."
         />
         <meta
           property="og:description"
@@ -48,7 +51,7 @@ function Dosti1() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland Bada Dost On Road Price in Hyderabad | Saboo AutoZone"
+          content="Ashok Leyland Bada Dost i1 on-road price in Hyderabad – Best festive offers. Contact and visit Saboo AutoZone today."
         />
         <meta
           property="twitter:description"

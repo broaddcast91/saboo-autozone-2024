@@ -16,8 +16,7 @@ function Partner4Tyre() {
       <Helmet>
         <title>
           Ashok Leyland Partner 4 Tire on Road Price in Hyderabad | Mileage &
-          Specifications
-        </title>
+          Specifications </title>
         <meta
           name="title"
           content="Ashok Leyland Partner 4 Tire on Road Price in Hyderabad | Mileage & Specifications"
@@ -28,7 +27,9 @@ function Partner4Tyre() {
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Partner Price, Specifications, Features & Mileage"
+          content="Ashok Leyland Partner Price, Specifications, Features & Mileage,Ashok Leyland Partner Price, Specifications, Features & Mileage,Ashok Leyland  Partner Price,Ashok Leyland Partner Specifications,Ashok Leyland Partner Features,Ashok Leyland Partner Mileage,2025 Ashok Leyland Partner Festive Offers,
+                   Best Price Ashok Leyland Partner 2025,Ashok Leyland Partner on-road Price Hyderabad,Ashok Leyland Partner Latest Offers,Ashok Leyland Partner Vehicle Offers 2025,
+                   Ashok Leyland Partner  Discount Offers"
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />

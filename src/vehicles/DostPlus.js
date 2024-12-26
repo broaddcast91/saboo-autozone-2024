@@ -15,30 +15,35 @@ function DostPlus() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland Dost Plus On Road Price in Hyderabad | Saboo AutoZone
+          Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
+          offers.| Saboo AutoZone today.
         </title>
         <meta
           name="title"
-          content="Ashok Leyland Bada Dost On Road Price in Hyderabad | Saboo AutoZone"
+          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
+          offers.| Saboo AutoZone today."
         />
         <meta
           name="description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 7.47 Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
+          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹8 Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Dost Plus Price, Specifications, Features & Mileage"
+          content="Ashok Leyland Dost Plus Price, Specifications, Features & Mileage,Ashok Leyland Dost  Plus  Price, Specifications, Features & Mileage,Ashok Leyland Bada Dost  Plus  Price,Ashok Leyland Bada Dost  Plus  Specifications,Ashok Leyland Bada Dost  Plus  Features,Ashok Leyland Bada Dost  Plus  Mileage,2025 Ashok Leyland Bada Dost  Plus  Festive Offers,
+                   Best Price Ashok Leyland Bada Dost Plus 2025,Ashok Leyland Bada Dost  Plus  on-road Price Hyderabad,Ashok Leyland Bada Dost  Plus  Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
+                   Ashok Leyland Bada Dost  Plus  Discount Offers"
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland Dost Plus On Road Price in Hyderabad | Saboo AutoZone"
+          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
+          offers.| Saboo AutoZone today."
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 7.47 Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
+          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 8Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
         />
         <meta
           property="og:image"
@@ -48,11 +53,12 @@ function DostPlus() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland Dost Plus On Road Price in Hyderabad | Saboo AutoZone"
+          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
+          offers.| Saboo AutoZone today."
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 7.47 Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
+          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 8Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
         />
         <meta
           property="twitter:image"

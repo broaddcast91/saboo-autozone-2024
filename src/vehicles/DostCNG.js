@@ -14,29 +14,32 @@ function DostCNG() {
   return (
     <>
       <Helmet>
-        <title>Ashok Leyland Dost CNG Price in Hyderabad | Dost Mileage</title>
+        <title>
+          Ashok Leyland Dost CNG Price in Hyderabad For best offers visit Saboo
+          Autozone | Dost Mileage
+        </title>
         <meta
           name="title"
-          content="Ashok Leyland Dost CNG Price in Hyderabad | Dost Mileage"
+          content="Ashok Leyland Dost CNG Price in Hyderabad - For best offers Contact and visit Saboo Autozone| Dost Mileage"
         />
         <meta
           name="description"
-          content="Ashok Leyland Dost CNG on-road price in Hyderabad starts from ₹ 5.63* lakh. Check out Ashok Leyland DOST CNG specifications, mileage, specifications, features & best offers at Saboo AutoZone showrooms or call us 91002 55555."
+          content="Ashok Leyland Dost CNG on-road price in Hyderabad starts from ₹8 lakh. Explore Ashok Leyland Dost CNG specifications, mileage, features, and the best 2025 festive offers at Saboo AutoZone showrooms. Call us at 91002 55555."
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Dost CNG Price, Specifications, Features & Mileage"
+          content="Ashok Leyland Dost CNG Price, Specifications, Features & Mileage, Ashok leyland in hyderabad ,2025 Festive season ashok leyland  hyderabad, ashok leyland dost price in hyderabad on road starts from ₹ 8*lakh, ashok leyland dost bs6 price starts from ₹ 8*lakh in hyderabad ,ashok leyland on road price starts from ₹ 8*lakh in hyderabad ,ashok leyland hyderabad "
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland Dost CNG Price in Hyderabad | Dost Mileage"
+          content="Ashok Leyland Dost CNG Price in Hyderabad - For best festive offers Contact and visit Saboo Autozone| Dost Mileage"
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Dost CNG on-road price in Hyderabad starts from ₹ 5.63* lakh. Check out Ashok Leyland DOST CNG specifications, mileage, specifications, features & best offers at Saboo AutoZone showrooms or call us 91002 55555."
+          content="Ashok Leyland Dost CNG on-road price in Hyderabad starts from ₹ 8.00* lakh. Check out Ashok Leyland DOST CNG specifications, mileage, specifications, features & best offers at Saboo AutoZone showrooms or call us 91002 55555."
         />
         <meta
           property="og:image"
@@ -46,11 +49,11 @@ function DostCNG() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland Dost CNG Price in Hyderabad | Dost Mileage"
+          content="Ashok Leyland Dost CNG Price in Hyderabad - For best offers Contact and visit Saboo Autozone| Dost Mileage"
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Dost CNG on-road price in Hyderabad starts from ₹ 5.63* lakh. Check out Ashok Leyland DOST CNG specifications, mileage, specifications, features & best offers at Saboo AutoZone showrooms or call us 91002 55555."
+          content="Ashok Leyland Dost CNG on-road price in Hyderabad starts from ₹ 8.00* lakh. Check out Ashok Leyland DOST CNG specifications, mileage, specifications, features & best offers at Saboo AutoZone showrooms or call us 91002 55555."
         />
         <meta
           property="twitter:image"
