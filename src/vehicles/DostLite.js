@@ -72,8 +72,9 @@ function DostLite() {
         <Specsi3 />
         <VehicleForm />
         <TechSpecs />
+        </div>
         <Footer />
-      </div>
+      
     </>
   );
 }

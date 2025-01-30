@@ -76,8 +76,9 @@ function DostStrong() {
         <Specsi3 />
         <VehicleForm />
         <TechSpecs />
+        </div>
         <Footer />
-      </div>
+      
     </>
   );
 }

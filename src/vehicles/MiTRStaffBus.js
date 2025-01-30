@@ -81,8 +81,8 @@ function MiTRStaffBus() {
         <SpecsMiTRStaffBus />
         <VehicleForm />
         <TechSpecs />
+        </div>
         <Footer />
-      </div>
     </>
   );
 }

@@ -81,8 +81,9 @@ function MiTRSchoolBus() {
         <SpecsMiTRSchoolBus />
         <VehicleForm />
         <TechSpecs />
+        </div>
         <Footer />
-      </div>
+      
     </>
   );
 }

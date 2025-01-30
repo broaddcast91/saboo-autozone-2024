@@ -263,6 +263,7 @@ const FinanceForm = () => {
                   onChange={(e) => onInputChange(e)}
                 >
                   <option>Select Vehicle</option>
+                  <option value="Saathi">Saathi</option>
                   <option value="Bada Dost i2">Bada Dost i2</option>
                   <option value="Bada Dost i4">Bada Dost i4</option>
                   <option value="Bada Dost+">Bada Dost+</option>
