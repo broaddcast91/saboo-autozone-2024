@@ -16,7 +16,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const TopHeader = () => {
   return (
     <div
-      className='container-fluid py-3'
+      className='py-3 container-fluid'
       style={{ backgroundColor: '#0d2034', color: 'white' }}
     >
       <div className='container d-flex align-items-center justify-content-between'>
@@ -260,6 +260,7 @@ const MainHeader = () => {
                             </ul>
                           </div>
                         </li>
+                        
                         <li className='header-dropdown-link'>
                           <Link
                             to='/dost-plus-on-road-price-in-hyderabad'

@@ -4,6 +4,18 @@ import { Link } from 'react-router-dom';
 // import { BsDownload } from 'react-icons/bs';
 import './Vehicles.css';
 const vehicles = [
+  
+  {
+    title: 'Saathi',
+    img: require('../../../img/new-thumbnails/saathi_new.png'),
+    to: 'Saathi-on-road-price-in-hyderabad',
+    payload: '1120 kg',
+    gvw: '2288',
+    power: '45',
+    engine: '1478',
+    brochure:
+      'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/autozone/Bada-Dost-i2-brochure.pdf',
+  },
 
   {
     title: 'BADA DOST i2',
@@ -124,7 +136,7 @@ function VehiclesList() {
     <div className='container'>
       <div className='row'>
         {vehicles.map((vehicle, index) => (
-          <div className='col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-3' key={index}>
+          <div className='mb-3 col-xl-3 col-lg-4 col-md-6 col-sm-6' key={index}>
             <div
               className='card bg-light box-hover'
               style={{ border: '1px solid #eee' }}
@@ -140,12 +152,12 @@ function VehiclesList() {
                 <h5 className='text-center' style={{ color: 'rgb(158 42 43)' }}>
                   {vehicle.title}
                 </h5>
-                <div className='c09ew342 mb-3'></div>
+                <div className='mb-3 c09ew342'></div>
 
-                <div className='d-flex justify-content-between px-3'>
+                <div className='px-3 d-flex justify-content-between'>
                   <div className='d-flex flex-column '>
-                    {/* <small className="text-muted mb-1">PAYLOAD</small> */}
-                    <div className='d-flex flex-row align-items-center'>
+                    {/* <small className="mb-1 text-muted">PAYLOAD</small> */}
+                    <div className='flex-row d-flex align-items-center'>
                       <img
                         src={require('../../../img/payload.webp')}
                         height={24}
@@ -155,8 +167,8 @@ function VehiclesList() {
                     </div>
                   </div>
                   <div className='d-flex flex-column'>
-                    {/* <small className="text-muted mb-1">GVW</small> */}
-                    <div className='d-flex flex-row align-items-center'>
+                    {/* <small className="mb-1 text-muted">GVW</small> */}
+                    <div className='flex-row d-flex align-items-center'>
                       <img
                         src={require('../../../img/gvw.webp')}
                         height={24}
@@ -167,10 +179,10 @@ function VehiclesList() {
                   </div>
                 </div>
 
-                <div className='d-flex justify-content-between mt-4 pb-3 px-3'>
+                <div className='px-3 pb-3 mt-4 d-flex justify-content-between'>
                   <div className='d-flex flex-column'>
-                    {/* <small className="text-muted mb-1">POWER</small> */}
-                    <div className='d-flex flex-row align-items-center'>
+                    {/* <small className="mb-1 text-muted">POWER</small> */}
+                    <div className='flex-row d-flex align-items-center'>
                       <img
                         src={require('../../../img/power.webp')}
                         height={24}
@@ -180,8 +192,8 @@ function VehiclesList() {
                     </div>
                   </div>
                   <div className='d-flex flex-column'>
-                    {/* <small className="text-muted mb-1">ENGINE</small> */}
-                    <div className='d-flex flex-row align-items-center'>
+                    {/* <small className="mb-1 text-muted">ENGINE</small> */}
+                    <div className='flex-row d-flex align-items-center'>
                       <img
                         src={require('../../../img/engine.webp')}
                         height={24}
@@ -192,13 +204,13 @@ function VehiclesList() {
                   </div>
                 </div>
 
-                <div className='d-flex justify-content-between mt-4 pb-3 px-3'>
+                <div className='px-3 pb-3 mt-4 d-flex justify-content-between'>
                   <div className='d-flex flex-column'>
-                    {/* <small className="text-muted mb-1">POWER</small> */}
-                    <div className='d-flex flex-row align-items-center'>
+                    {/* <small className="mb-1 text-muted">POWER</small> */}
+                    <div className='flex-row d-flex align-items-center'>
                       <span className='text-muted'>
                         <Link to={vehicle.to}>
-                          <Button className='btn-danger d-flex mx-auto px-3 py-2'>
+                          <Button className='px-3 py-2 mx-auto btn-danger d-flex'>
                             Explore
                           </Button>
                         </Link>
@@ -206,12 +218,12 @@ function VehiclesList() {
                     </div>
                   </div>
                   <div className='d-flex flex-column'>
-                    {/* <small className="text-muted mb-1">ENGINE</small> */}
-                    <div className='d-flex flex-row align-items-center '>
+                    {/* <small className="mb-1 text-muted">ENGINE</small> */}
+                    <div className='flex-row d-flex align-items-center '>
                       <span className='text-muted'>
                         <a href={vehicle.brochure}>
                           <Button
-                            className='btn-info d-flex mx-auto px-3 py-2'
+                            className='px-3 py-2 mx-auto btn-info d-flex'
                             style={{
                               backgroundColor: '#0d2034',
                               color: 'white',

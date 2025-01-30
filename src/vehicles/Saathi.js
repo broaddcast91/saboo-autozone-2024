@@ -1,90 +1,43 @@
-import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { IoIosHome } from "react-icons/io";
-import { IoLocationOutline } from "react-icons/io5";
-import { Button, Row, Col, Form, Accordion, Table } from "react-bootstrap";
-import { BsDownload } from "react-icons/bs";
-import axios from "axios";
-import { Helmet } from "react-helmet";
-import { toast } from "react-toastify";
+import React from 'react'
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 
-function DostPlus() {
+
+import { Link, useNavigate } from "react-router-dom";
+import { IoIosHome } from "react-icons/io";
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+import { toast } from 'react-toastify';
+import { BsDownload } from "react-icons/bs";
+import { Button, Row, Col, Form, Accordion, Table } from "react-bootstrap";
+
+export const Saathi = () => {
   return (
-    <>
-      <Helmet>
-        <title>
-          Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today.
-        </title>
-        <meta
-          name="title"
-          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
-        />
-        <meta
-          name="description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹8 Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
-        />
-        <meta
-          name="keywords"
-          content="Ashok Leyland Dost Plus Price, Specifications, Features & Mileage,Ashok Leyland Dost  Plus  Price, Specifications, Features & Mileage,Ashok Leyland Bada Dost  Plus  Price,Ashok Leyland Bada Dost  Plus  Specifications,Ashok Leyland Bada Dost  Plus  Features,Ashok Leyland Bada Dost  Plus  Mileage,2025 Ashok Leyland Bada Dost  Plus  Festive Offers,
-                   Best Price Ashok Leyland Bada Dost Plus 2025,Ashok Leyland Bada Dost  Plus  on-road Price Hyderabad,Ashok Leyland Bada Dost  Plus  Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
-                   Ashok Leyland Bada Dost  Plus  Discount Offers"
-        />
-        <meta name="author" content="Broaddcast" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="og:title"
-          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
-        />
-        <meta
-          property="og:description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 8Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
-        />
-        <meta
-          property="og:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-dost-plus.jpg"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="twitter:title"
-          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
-        />
-        <meta
-          property="twitter:description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 8Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
-        />
-        <meta
-          property="twitter:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-dost-plus.jpg"
-        />
-      </Helmet>
+    
+    <div>
       <Header />
-      <DostPlusBanner />
+      <SaathiBanner/>
       <div className="container my-5">
-        <TitleWithImg />
-        <Specsi3 />
-        <VehicleForm />
-        <TechSpecs />
-        </div>
+      <TitleWithImg/>
+       <Specsi3/>
+       <VehicleForm/>
+       <TechSpecs/>
+       </div>
         <Footer />
-      
-    </>
-  );
+       
+    </div>
+
+
+
+  )
 }
 
-const DostPlusBanner = () => {
+const SaathiBanner = () => {
   return (
     <>
       <img
         className="mw-100 w-100"
-        src={require("../img/dost-plus-banner-with-logo.webp")}
+        src={require("../../src/img/saathi/banner_saathi.png")}
         alt="vehciles-banner"
       />
 
@@ -97,7 +50,7 @@ const DostPlusBanner = () => {
               </Link>
             </li>
             <li className="breadcrumb-item active" aria-current="page">
-              Light Commercial Vehicles (LCV) / Ashok Leyland Dost Plus on road
+              Light Commercial Vehicles (LCV) / Ashok Leyland Saathi on road
               price in Hyderabad
             </li>
           </ol>
@@ -106,6 +59,7 @@ const DostPlusBanner = () => {
     </>
   );
 };
+
 
 const TitleWithImg = () => {
   function handleScrollToComponent() {
@@ -133,20 +87,20 @@ const TitleWithImg = () => {
         <div className="mb-3 overflow-hidden col-lg-6">
           <img
             className="my-auto rounded mw-100 w-100"
-            src={require("../img/vehicles/dost-plus-image-1.webp")}
+            src={require("../../src/img/saathi/SAATHI-PHOTO.png")}
             alt="Bada-Dost-Plus"
           />
         </div>
         <div className="mb-3 col-lg-6 ps-4">
           <h4 className="fw-bold fs-2">
-            <span className="fw-light fs-5">Ashok Leyland</span>&nbsp;DOST Plus{" "}
+            <span className="fw-light fs-5">Ashok Leyland</span>&nbsp;SAATHI{" "}
             <br></br>
             <span className="fw-light fs-6">
               Ex-Showroom price in Hyderabad
             </span>
           </h4>
           <h5 className="text-danger">
-            Starting from ₹ 8 Lakh<sup>*</sup>
+            Starting from ₹ N/A <sup>*</sup>
           </h5>
           <small className="text-danger">
             *
@@ -183,7 +137,7 @@ const TitleWithImg = () => {
             <Button
               className="border border-2 btn rounded-0 me-2"
               style={{ backgroundColor: "#f1ddb7" }}
-            ></Button> 
+            ></Button>
             <Button
               className="border border-2 btn rounded-0 me-2"
               style={{ backgroundColor: "#1a4797" }}
@@ -214,10 +168,13 @@ const TitleWithImg = () => {
   );
 };
 
+
+
+
 const Specsi3 = () => {
   return (
     <>
-      <h4>Ashok Leyland Dost Plus Specifications and Features</h4>
+      <h4>Ashok Leyland Saathi Specifications and Features</h4>
       <div className="row">
         <div className="mb-3 col-lg-2 col-sm-4">
           <div
@@ -234,7 +191,7 @@ const Specsi3 = () => {
                   width={54}
                 />
                 <small className="text-muted">POWER</small>
-                <span> 80 HP</span>
+                <span> 45 HP</span>
               </div>
             </div>
           </div>
@@ -255,7 +212,7 @@ const Specsi3 = () => {
                   width={54}
                 />
                 <small className="text-muted">GVW</small>
-                <span> 2805 kg</span>
+                <span> 2288 kg</span>
               </div>
             </div>
           </div>
@@ -276,7 +233,7 @@ const Specsi3 = () => {
                   width={54}
                 />
                 <small className="text-muted">WHEEL BASE</small>
-                <span> 2510 mm</span>
+                <span> 2250 mm</span>
               </div>
             </div>
           </div>
@@ -339,7 +296,8 @@ const Specsi3 = () => {
                   width={54}
                 />
                 <small className="text-muted">PAYLOAD</small>
-                <span> 1500 kg</span>
+                <span> 
+                1120 kg</span>
               </div>
             </div>
           </div>
@@ -348,6 +306,7 @@ const Specsi3 = () => {
     </>
   );
 };
+
 
 const VehicleForm = () => {
   const [user, setUser] = useState({
@@ -363,7 +322,7 @@ const VehicleForm = () => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
 
-  const [buttonclick, setButtonclick] = useState(false);
+  const [buttonClick, setButtonClick] = useState(false);
 
   const navigate = useNavigate();
   const onSubmit = async (e) => {
@@ -380,7 +339,7 @@ const VehicleForm = () => {
       return;
     }
 
-    setButtonclick(true);
+    setButtonClick(true);
 
     try {
       // First API Call
@@ -396,7 +355,7 @@ const VehicleForm = () => {
       toast.error("Oops! Something went wrong");
     }
 
-    setButtonclick(false);
+    setButtonClick(false);
   };
 
   const [language, setLanguage] = useState();
@@ -412,25 +371,19 @@ const VehicleForm = () => {
     return () => clearInterval(interval);
   }, []);
 
+
   return (
-    <div
-      className="container my-5 border shadow rounded-3"
-      id="onRoadPriceComponent"
-    >
+    <div className="container my-5 border shadow rounded-3" id="onRoadPriceComponent">
       <div className="p-3 row align-items-center">
         <div className="mt-3 col-lg-6 col-md-12 col-12">
           <h3>
-            {language === "2"
-              ? "దోస్త్ ప్లస్ ఆన్ రోడ్ ధరను పొందండి"
-              : language === "3"
-              ? "दोस्त प्लस की ऑन-रोड कीमत प्राप्त करें"
-              : "Get On Road Price of Dost Plus"}
+            {language === "2" ? "దోస్త్ ప్లస్ ఆన్ రోడ్ ధరను పొందండి" :
+              language === "3" ? "दोस्त प्लस की ऑन-रोड कीमत प्राप्त करें" :
+              "Get On Road Price of SAATHI"}
           </h3>
-          <small>
-            Please fill out the form and we'll get back to you right away !
-          </small>
+          <small>Please fill out the form and we'll get back to you right away!</small>
 
-          <form onSubmit={(e) => onSubmit(e)}>
+          <form onSubmit={onSubmit}>
             <div className="mt-4 row">
               <div className="mb-3 col-md-6">
                 <label className="form-label">Name</label>
@@ -438,7 +391,7 @@ const VehicleForm = () => {
                   type="text"
                   name="name"
                   value={name}
-                  onChange={(e) => onInputChange(e)}
+                  onChange={onInputChange}
                   className="form-control"
                 />
               </div>
@@ -449,7 +402,7 @@ const VehicleForm = () => {
                   type="email"
                   name="email"
                   value={email}
-                  onChange={(e) => onInputChange(e)}
+                  onChange={onInputChange}
                   className="form-control"
                 />
               </div>
@@ -460,7 +413,7 @@ const VehicleForm = () => {
                   type="text"
                   name="mobile"
                   value={mobile}
-                  onChange={(e) => onInputChange(e)}
+                  onChange={onInputChange}
                   className="form-control"
                   minLength="10"
                   maxLength="10"
@@ -474,9 +427,10 @@ const VehicleForm = () => {
                   aria-label="Default select example"
                   name="vehicle"
                   value={vehicle}
-                  onChange={(e) => onInputChange(e)}
+                  onChange={onInputChange}
                 >
                   <option>Select Vehicle</option>
+                  <option value="Saathi">Saathi</option>
                   <option value="Bada Dost i2">Bada Dost i2</option>
                   <option value="Bada Dost i4">Bada Dost i4</option>
                   <option value="Bada Dost+">Bada Dost+</option>
@@ -499,7 +453,7 @@ const VehicleForm = () => {
                     label="Get On Road Price"
                     name="enquiry"
                     value="Get On Road Price"
-                    onChange={(e) => onInputChange(e)}
+                    onChange={onInputChange}
                   />
                   <Form.Check
                     className="me-3"
@@ -508,7 +462,7 @@ const VehicleForm = () => {
                     name="enquiry"
                     value="Book A Test Drive"
                     label="Book A Test Drive"
-                    onChange={(e) => onInputChange(e)}
+                    onChange={onInputChange}
                   />
                 </div>
               </div>
@@ -520,7 +474,7 @@ const VehicleForm = () => {
                   aria-label="Default select example"
                   name="outlet"
                   value={outlet}
-                  onChange={(e) => onInputChange(e)}
+                  onChange={onInputChange}
                 >
                   <option>Select</option>
                   <option value="Attapur">Attapur</option>
@@ -548,7 +502,7 @@ const VehicleForm = () => {
             <Button
               className="px-5 mt-4 btn btn-success text-uppercase"
               type="submit"
-              disabled={buttonclick}
+              disabled={buttonClick}
             >
               Submit
             </Button>
@@ -558,7 +512,7 @@ const VehicleForm = () => {
         <div className="mt-3 overflow-hidden col-lg-6 col-md-12 col-12 pe-0">
           <img
             className="rounded w-100"
-            src={require("../img/vehicles/dost-plus-image02.webp")}
+            src={require("../../src/img/saathi/banner_saathi.png")}
             alt="Dost-Plus-Mileage"
           />
         </div>
@@ -566,6 +520,9 @@ const VehicleForm = () => {
     </div>
   );
 };
+
+
+
 
 const TechSpecs = () => {
   return (
@@ -583,7 +540,7 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Engine :</td>
-                        <td>1.5 Liters, 3 Cylinder Diesel Engine BS VI</td>
+                        <td>1.5 Litres, Turbo Charged, 3 Cylinder Diesel Engine</td>
                       </tr>
                       <tr>
                         <td>Type</td>
@@ -595,11 +552,11 @@ const TechSpecs = () => {
                       </tr>
                       <tr>
                         <td>Maximum Power @ rpm : </td>
-                        <td>80 HP @ 3,300 RPM</td>
+                        <td>45 HP at 3300 RPM</td>
                       </tr>
                       <tr>
                         <td>Maximum Torque @ rpm : </td>
-                        <td>190 Nm @ 1600-2400 RPM</td>
+                        <td>110Nm at 1000-2400 RPM</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -636,8 +593,7 @@ const TechSpecs = () => {
                       <tr>
                         <td>Clutch : </td>
                         <td>
-                          240 mm Diaphragm, Single dry plate ,Mechanical cable
-                          Operated
+                        215mm Dry Type, Single plate/Mechanical actuation
                         </td>
                       </tr>
                     </tbody>
@@ -655,13 +611,12 @@ const TechSpecs = () => {
                       <tr>
                         <td>Gear Box : </td>
                         <td>
-                          Fully synchromesh, 5 speed gearbox Manual,Integrated
-                          Bell Housing
+                        5F+1R Manual Gearbox
                         </td>
                       </tr>
                       <tr>
                         <td>Gear Shifting : </td>
-                        <td>Cable type</td>
+                        <td>Cable Shift</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -677,7 +632,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Type : </td>
-                        <td>Vacuum assisted Hydraulic brake with LSPV</td>
+                        <td>Vacuum Asssisted Hydraulic brake with LSPV</td>
+                      </tr>
+                      <tr>
+                        <td>Front, Rear: </td>
+                        <td>Disc Type, Drum Type</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -694,15 +653,13 @@ const TechSpecs = () => {
                       <tr>
                         <td>Front : </td>
                         <td>
-                          Rigid Suspension with Parabolic Leaf and Double-acting
-                          Shock absorber
+                        Parabolic Leaf spring (2L) with double acting Shock absorber
                         </td>
                       </tr>
                       <tr>
                         <td>Rear : </td>
                         <td>
-                          Semi elliptic Leaf spring with Double acting Shock
-                          absorber
+                        Parabolic Leaf spring (3L) with double acting Shock absorber
                         </td>
                       </tr>
                     </tbody>
@@ -719,7 +676,7 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Tyres : </td>
-                        <td>195 R15 LT 8 PR</td>
+                        <td>165 R14 LT, 8PR</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -735,11 +692,11 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Gross Vehicle Weight (GVW)in kg's : </td>
-                        <td>2805</td>
+                        <td>2288</td>
                       </tr>
                       <tr>
                         <td>Rated Payload in kg's : </td>
-                        <td>1500</td>
+                        <td>1120</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -756,7 +713,7 @@ const TechSpecs = () => {
                       <tr>
                         <td>Capacity : </td>
                         <td>
-                          3 seater - ARAI certified (1 Driver + 2 Co-driver)
+                        Driver + 1
                         </td>
                       </tr>
                     </tbody>
@@ -789,19 +746,27 @@ const TechSpecs = () => {
                     <tbody>
                       <tr>
                         <td>Wheelbase (in mm) : </td>
-                        <td>2510</td>
+                        <td>2250</td>
                       </tr>
                       <tr>
                         <td>Overall length (in mm) : </td>
-                        <td>4630</td>
+                        <td>4406</td>
+                      </tr>
+                      <tr>
+                        <td>Overall Width (in mm) : </td>
+                        <td>1663</td>
                       </tr>
                       <tr>
                         <td>Overall Height (in mm) : </td>
-                        <td>1900</td>
+                        <td>1833</td>
                       </tr>
                       <tr>
                         <td>Load Body/Cargo Deck (L x W x H) : </td>
-                        <td>2645x1620x380 (8.7ft x 5.3ft x 1.2ft)</td>
+                        <td>2500 X 1620 X 380 mm 8 ft 2 in X 5 ft 3 in X 1 ft 2 in</td>
+                      </tr>
+                      <tr>
+                        <td>Loading Height : </td>
+                        <td>835</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -816,4 +781,3 @@ const TechSpecs = () => {
   );
 };
 
-export default DostPlus;

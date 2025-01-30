@@ -55,6 +55,7 @@ import PrivacyPolicy from "./screens/PrivacyPolicy";
 import Login from "./components/Login/Login";
 import DostCNGBoth from "./vehicles/DostCNGBoth";
 import DostPlusCNG from "./vehicles/DostPlusCNG";
+import { Saathi } from "./vehicles/Saathi";
 
 const ScrollTop = () => {
   const { pathname } = useLocation();
@@ -197,6 +198,7 @@ function App() {
           pauseOnHover
         />
         <Routes>
+        <Route path="/saathi-on-road-price-in-hyderabad" element={<Saathi />} />
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="about" element={<About />} />
