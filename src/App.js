@@ -56,6 +56,7 @@ import Login from "./components/Login/Login";
 import DostCNGBoth from "./vehicles/DostCNGBoth";
 import DostPlusCNG from "./vehicles/DostPlusCNG";
 import { Saathi } from "./vehicles/Saathi";
+import DostPlusXL from "./vehicles/DostPlusXL";
 
 const ScrollTop = () => {
   const { pathname } = useLocation();
@@ -212,6 +213,7 @@ function App() {
           <Route path="book-a-service" element={<BookService />} />
           <Route path="contact" element={<Contact />} />
           <Route path="service-outlets" element={<ServiceOutlets />} />
+          <Route path="/dostplusXL-on-road-price-in-hyderabad" element={<DostPlusXL />} />
           <Route
             path="bada-dost-on-road-price-in-hyderabad"
             element={<BadaDost />}

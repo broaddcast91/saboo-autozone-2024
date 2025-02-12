@@ -18,11 +18,11 @@ import { Button } from 'react-bootstrap';
 function Footer() {
   return (
     <>
-      <div className='container-fluid bg-light border border-top-5 py-5'>
+      <div className='py-5 border container-fluid bg-light border-top-5'>
         <div className='container'>
           <div className='row'>
             {/* Starts */}
-            <div className='col-xl-3 col-lg-4 col-md-6 mb-2'>
+            <div className='mb-2 col-xl-3 col-lg-4 col-md-6'>
               <div className='simple-text dark padding-sm'>
                 <div className='footer'>
                   <address>
@@ -51,12 +51,23 @@ function Footer() {
             </div>
 
             {/* Starts */}
-            <div className='col-xl-3 col-lg-4 col-md-6 mb-2'>
+            <div className='mb-2 col-xl-3 col-lg-4 col-md-6'>
               <h4 className='webintern_footer_title h5 text-uppercase'>
                 <small>Vehicles</small>
-                <div className='c09ew341 mt-1 mb-3'></div>
+                <div className='mt-1 mb-3 c09ew341'></div>
               </h4>
               <ul className='webintern-footer-list'>
+              <li>
+                  <Link to='/dostplusXL-on-road-price-in-hyderabad'>
+                    <FaAngleDoubleRight /> Ashok Leyland DOST + XL
+                  </Link>
+                </li>
+              <li>
+                  <Link to='/Saathi-on-road-price-in-hyderabad'>
+                    <FaAngleDoubleRight /> Ashok Leyland SAATHI
+                  </Link>
+                </li>
+
                 <li>
                   <Link to='/bada-dost-i2-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland BADA DOST i2
@@ -82,10 +93,10 @@ function Footer() {
             </div>
 
             {/* Starts */}
-            <div className='col-xl-3 col-lg-4 col-md-6 mb-2'>
+            <div className='mb-2 col-xl-3 col-lg-4 col-md-6'>
               <h4 className='webintern_footer_title h5 text-uppercase'>
                 <small>Vehicles</small>
-                <div className='c09ew341 mt-1 mb-3'></div>
+                <div className='mt-1 mb-3 c09ew341'></div>
               </h4>
               <ul className='webintern-footer-list'>
                 <li>
@@ -127,11 +138,11 @@ function Footer() {
             </div>
 
             {/* Starts */}
-            <div className='col-xl-3 col-lg-8 col-md-6 mb-2'>
+            <div className='mb-2 col-xl-3 col-lg-8 col-md-6'>
               <div className='marg-sm-b30'></div>
               <h4 className='webintern_footer_title h5 text-uppercase'>
                 <small>Subscribe Newsletter</small>
-                <div className='c09ew341 mt-1 mb-3'></div>
+                <div className='mt-1 mb-3 c09ew341'></div>
               </h4>
               <form>
                 <div className='tt-subscribe d-flex'>
@@ -147,7 +158,7 @@ function Footer() {
                 </div>
               </form>
 
-              <ul className='tt-socail d-flex mt-4 p-0'>
+              <ul className='p-0 mt-4 tt-socail d-flex'>
                 <li className='me-2'>
                   <a
                     href='https://www.facebook.com/SabooAutozoneVehicles'
@@ -207,7 +218,7 @@ const CopyRight = () => {
   return (
     <div className='container-fluid' style={{ backgroundColor: '#0d2034' }}>
       <div className='container'>
-        <div className='row align-items-center py-3'>
+        <div className='py-3 row align-items-center'>
           <div className='col-xl-6 col-lg-6 col-md-12'>
             <p className='text-white footer-text'>
               <Link

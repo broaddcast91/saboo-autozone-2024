@@ -201,6 +201,11 @@ const MainHeader = () => {
                     </Link>
                     <div className='header-dropdown'>
                       <ul className='p-0'>
+                      <li className='header-dropdown-link'>
+                                <Link to='/dostplusXL-on-road-price-in-hyderabad'>
+                                Ashok Leyland  DOST + XL
+                                </Link>
+                              </li>
 
                       <li className='header-dropdown-link'>
                                 <Link to='/Saathi-on-road-price-in-hyderabad'>

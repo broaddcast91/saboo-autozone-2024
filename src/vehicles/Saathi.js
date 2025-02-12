@@ -118,12 +118,12 @@ const TitleWithImg = () => {
           <small>
             Ashok Leyland recognizes that a country's economic stability is
             dependent on the safe and timely delivery of commodities, and
-            designs vehicles that make this possible in the long run. DOST, an
+            designs vehicles that make this possible in the long run. SAATHI, an
             award-winning light commercial vehicle from Ashok Leyland, with
-            i-GEN6 technology, alongside the payload of 1500kgs, it is a
+            i-GEN6 technology, alongside the payload of 1120kgs, it is a
             suitable vehicle for transporting items carried off larger trucks
             through crowded city highways and across difficult terrains to even
-            the most distant corners of the country. DOST's car-like simplicity
+            the most distant corners of the country. SAATHI's car-like simplicity
             of use and fuel economy make it a practical alternative for
             navigating through narrower lanes and guaranteeing consumer items
             are delivered to their doorstep.
@@ -134,13 +134,13 @@ const TitleWithImg = () => {
               className="mx-2 border border-2 btn rounded-0"
               style={{ backgroundColor: "#fff" }}
             ></Button>
-            <Button
+            {/* <Button
               className="border border-2 btn rounded-0 me-2"
               style={{ backgroundColor: "#f1ddb7" }}
-            ></Button>
+            ></Button> */}
             <Button
               className="border border-2 btn rounded-0 me-2"
-              style={{ backgroundColor: "#1a4797" }}
+              style={{ backgroundColor: "#00ffff" }}
             ></Button>
           </p>
           <div>
@@ -153,7 +153,7 @@ const TitleWithImg = () => {
               get on road price
             </Button>
             <a
-              href="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/pdfs/DOST-Plus-May-2023-_No-7859.pdf"
+              href="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/autozone/SAATHI-Brochure_Updated.pdf"
               target="_blank"
               className="mb-1 btn btn-danger text-uppercase rounded-0"
               rel="noopener noreferrer"

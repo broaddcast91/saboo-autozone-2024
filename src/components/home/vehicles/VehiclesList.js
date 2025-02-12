@@ -4,6 +4,21 @@ import { Link } from 'react-router-dom';
 // import { BsDownload } from 'react-icons/bs';
 import './Vehicles.css';
 const vehicles = [
+   
+  {
+    title: 'DOST + XL',
+    img: require('../../../img/new-thumbnails/dostplusXL.png'),
+    to: 'dostplusXL-on-road-price-in-hyderabad',
+    payload: '1600 kg',
+    gvw: '2288',
+    power: '70',
+    engine: '1478',
+    brochure:
+      '',
+  },
+
+
+
   
   {
     title: 'Saathi',
