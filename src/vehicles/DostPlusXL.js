@@ -152,7 +152,7 @@ const TitleWithImg = () => {
               get on road price
             </Button>
             <a
-              href="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/autozone/SAATHI-Brochure_Updated.pdf"
+              href="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/autozone/Dost-XL-_-Brochure-A4_04.pdf"
               target="_blank"
               className="mb-1 btn btn-danger text-uppercase rounded-0"
               rel="noopener noreferrer"

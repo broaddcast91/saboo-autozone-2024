@@ -14,7 +14,7 @@ const vehicles = [
     power: '70',
     engine: '1478',
     brochure:
-      '',
+      'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/autozone/Dost-XL-_-Brochure-A4_04.pdf',
   },
 
 
