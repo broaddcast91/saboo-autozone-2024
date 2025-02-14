@@ -99,7 +99,7 @@ const TitleWithImg = () => {
             </span>
           </h4>
           <h5 className="text-danger">
-            Starting from ₹ N/A <sup>*</sup>
+            Coming-soon.... <sup>*</sup>                        {/* Starting from ₹ */}
           </h5>
           <small className="text-danger">
             *
