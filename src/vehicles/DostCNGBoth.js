@@ -11,29 +11,26 @@ function DostCNGBoth() {
       <Helmet>
         <meta
           name="title"
-          content="Ashok Leyland Partner Price in Hyderabad For best offers 2025 Festive season  Contact and visit Saboo Autozone | Mileage & Specifications"
+          content="Ashok Leyland Partner Summer Offers 2025 | Best Deals & Price in Hyderabad | Saboo Autozone | Mileage & Specifications"
         />
         <meta
           name="description"
-          content="Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers 2025 Festive season ."
+          content="Ashok Leyland Partner 6-Tyre Truck on-road price in Hyderabad. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore technical specifications, mileage, and features. Call 91002 55555 for the best summer discounts!"
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Partner Price, Specifications, Features & Mileage, 2025 Festive season , ashok leyland Dost CNGboth price in hyderabad starts from from ₹8 lakh.
-
-
-"
+          content="Ashok Leyland Partner Summer Offers 2025, Ashok Leyland Dost CNG Summer Discounts, Ashok Leyland Partner Price in Hyderabad, Ashok Leyland Dost CNG Price Hyderabad, Best Summer Deals on Ashok Leyland Trucks, Ashok Leyland Partner Mileage & Features, Ashok Leyland Dost CNG Specifications, Ashok Leyland Partner On-Road Price Hyderabad, Saboo AutoZone Summer Offers, Ashok Leyland Truck Discounts 2025."
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland Partner Price in Hyderabad -  For best festive offers Contact and visit Saboo Autozone | Mileage & Specifications"
+          content="Ashok Leyland Partner Summer Offers 2025 | Best Deals & Price in Hyderabad | Saboo Autozone | Mileage & Specifications"
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Partner 6-Tyre Truck on-road price in Hyderabad. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore technical specifications, mileage, and features. Call 91002 55555 for the best summer discounts!"
         />
         <meta
           property="og:image"
@@ -43,19 +40,18 @@ function DostCNGBoth() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland Partner Price in Hyderabad -  For best festive offers Contact and visit Saboo Autozone| Mileage & Specifications"
+          content="Ashok Leyland Partner Summer Offers 2025 | Best Deals & Price in Hyderabad | Saboo Autozone | Mileage & Specifications"
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for 2025 festive best offers."
+          content="Ashok Leyland Partner 6-Tyre Truck on-road price in Hyderabad. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore technical specifications, mileage, and features. Call 91002 55555 for the best summer discounts!"
         />
         <meta
           property="twitter:image"
           content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-partner.jpg"
         />
         <title>
-          Ashok Leyland Dost CNG Price in Hyderabad - For best festive offers
-          Contact and visit Saboo Autozone| Mileage & Specifications
+        Ashok Leyland Partner Summer Offers 2025 | Best Deals & Price in Hyderabad | Saboo Autozone | Mileage & Specifications
         </title>
       </Helmet>
       <Header />

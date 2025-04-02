@@ -15,35 +15,30 @@ function DostPlus() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today.
+        Ashok Leyland Dost Plus Summer Offers 2025 | Best On-Road Price in Hyderabad | Saboo AutoZone
         </title>
         <meta
           name="title"
-          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
+          content="Ashok Leyland Dost Plus Summer Offers 2025 | Best On-Road Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           name="description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹8 Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
+          content="The Ashok Leyland Dost Plus on-road price in Hyderabad starts from ₹8 lakh. Get exclusive Summer 2025 offers at Saboo AutoZone, a top Ashok Leyland authorized commercial truck dealer in Telangana. Call 91002 55555 for Dost Plus features, specifications, and best deals!"
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Dost Plus Price, Specifications, Features & Mileage,Ashok Leyland Dost  Plus  Price, Specifications, Features & Mileage,Ashok Leyland Bada Dost  Plus  Price,Ashok Leyland Bada Dost  Plus  Specifications,Ashok Leyland Bada Dost  Plus  Features,Ashok Leyland Bada Dost  Plus  Mileage,2025 Ashok Leyland Bada Dost  Plus  Festive Offers,
-                   Best Price Ashok Leyland Bada Dost Plus 2025,Ashok Leyland Bada Dost  Plus  on-road Price Hyderabad,Ashok Leyland Bada Dost  Plus  Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
-                   Ashok Leyland Bada Dost  Plus  Discount Offers"
+          content="Ashok Leyland Dost Plus Summer Offers 2025, Ashok Leyland Dost Plus Price in Hyderabad, Ashok Leyland Dost Plus Best Deals, Ashok Leyland Dost Plus On-Road Price Hyderabad, Ashok Leyland Dost Plus Mileage & Specifications, Ashok Leyland Dost Plus Features & Discounts, Best Price for Ashok Leyland Dost Plus 2025, Ashok Leyland Bada Dost Plus Summer Offers, Ashok Leyland Commercial Vehicle Summer Discounts, Ashok Leyland Bada Dost Plus Latest Summer Deals, Ashok Leyland Small Commercial Vehicle Offers 2025."
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
+          content="Ashok Leyland Dost Plus Summer Offers 2025 | Best On-Road Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 8Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
+          content="The Ashok Leyland Dost Plus on-road price in Hyderabad starts from ₹8 lakh. Get exclusive Summer 2025 offers at Saboo AutoZone, a top Ashok Leyland authorized commercial truck dealer in Telangana. Call 91002 55555 for Dost Plus features, specifications, and best deals!"
         />
         <meta
           property="og:image"
@@ -53,12 +48,11 @@ function DostPlus() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content=" Ashok Leyland Dost Plus On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
+          content="Ashok Leyland Dost Plus Summer Offers 2025 | Best On-Road Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Dost Plus on road price in Hyderabad starts from ₹ 8Lakh*.  Saboo AutoZone is one of the Top Ashok Leyland authorized commercial truck dealers in Hyderabad and all over Telangana. Call now 91002 55555 for Dost Plus features, Specifications & Offers."
+          content="The Ashok Leyland Dost Plus on-road price in Hyderabad starts from ₹8 lakh. Get exclusive Summer 2025 offers at Saboo AutoZone, a top Ashok Leyland authorized commercial truck dealer in Telangana. Call 91002 55555 for Dost Plus features, specifications, and best deals!"
         />
         <meta
           property="twitter:image"

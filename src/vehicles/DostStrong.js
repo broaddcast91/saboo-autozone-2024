@@ -15,38 +15,30 @@ function DostStrong() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland New Dost Strong Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today | New Dost Strong Features &
-          Specifications
+        Ashok Leyland New Dost Strong Price in Hyderabad – Best Summer Offers 2025 | Saboo AutoZone Today | New Dost Strong Features & Specifications
         </title>
         <meta
           name="title"
-          content="Ashok Leyland New Dost Strong Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today | New Dost Strong Features &
-          Specifications"
+          content="Ashok Leyland New Dost Strong Price in Hyderabad – Best Summer Offers 2025 | Saboo AutoZone Today | New Dost Strong Features & Specifications"
         />
         <meta
           name="description"
-          content="Ashok Leyland New Dost Strong BS6 price in Hyderabad, Telangana starts from ₹ 8lakhs. New Dost Strong superior mileage is one of the key features of Dost Strong. It is available in 3 variants. Saboo AutoZone offers best deals on Ashok Leyland Dost Strong. Call now 91002 55555 Call now 91002 55555"
+          content="Ashok Leyland New Dost Strong BS6 on-road price in Hyderabad, Telangana starts from ₹8 lakhs. Enjoy superior mileage and top features across 3 variants. Avail exclusive Summer 2025 offers and best deals at Saboo AutoZone. Call now 91002 55555 for details!"
         />
         <meta
           name="keywords"
-          content="Ashok Leyland New Dost Strong Price, Specifications, Features & Mileage,Ashok Leyland New Dost Strong   Price, Specifications, Features & Mileage,Ashok Leyland  New Dost Strong  Price,Ashok Leyland New Dost Strong  Specifications,Ashok Leyland New Dost Strong   Features,Ashok Leyland New Dost Strong   Mileage,2025 Ashok Leyland New Dost Strong Festive Offers,
-                   Best Price Ashok Leyland  New Dost Strong  2025,Ashok Leyland  New Dost Strong on-road Price Hyderabad,Ashok Leyland  New Dost Strong   Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
-                   Ashok Leyland  New Dost Strong  Discount Offers"
+          content="Ashok Leyland New Dost Strong Summer Offers 2025, Ashok Leyland New Dost Strong Price in Hyderabad, Ashok Leyland New Dost Strong Best Deals, Ashok Leyland New Dost Strong On-Road Price Hyderabad, Ashok Leyland New Dost Strong Mileage & Specifications, Ashok Leyland New Dost Strong Features & Discounts, Best Price for Ashok Leyland New Dost Strong 2025, Ashok Leyland New Dost Strong Latest Summer Offers, Ashok Leyland Commercial Vehicle Summer Discounts, Ashok Leyland New Dost Strong Exclusive Deals 2025."
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland New Dost Strong Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today | New Dost Strong Features &
-          Specifications"
+          content="Ashok Leyland New Dost Strong Price in Hyderabad – Best Summer Offers 2025 | Saboo AutoZone Today | New Dost Strong Features & Specifications"
         />
         <meta
           property="og:description"
-          content="Ashok Leyland New Dost Strong BS6 price in Hyderabad, Telangana starts from ₹ 8lakhs. New Dost Strong superior mileage is one of the key features of Dost Strong. It is available in 3 variants. Saboo AutoZone offers best deals on Ashok Leyland Dost Strong. Call now 91002 55555"
+          content="Ashok Leyland New Dost Strong BS6 on-road price in Hyderabad, Telangana starts from ₹8 lakhs. Enjoy superior mileage and top features across 3 variants. Avail exclusive Summer 2025 offers and best deals at Saboo AutoZone. Call now 91002 55555 for details!"
         />
         <meta
           property="og:image"
@@ -56,13 +48,11 @@ function DostStrong() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland New Dost Strong Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today | New Dost Strong Features &
-          Specifications"
+          content="Ashok Leyland New Dost Strong Price in Hyderabad – Best Summer Offers 2025 | Saboo AutoZone Today | New Dost Strong Features & Specifications"
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland New Dost Strong BS6 price in Hyderabad, Telangana starts from ₹ 8lakhs. New Dost Strong superior mileage is one of the key features of Dost Strong. It is available in 3 variants. Saboo AutoZone offers best deals on Ashok Leyland Dost Strong. Call now 91002 55555"
+          content="Ashok Leyland New Dost Strong BS6 on-road price in Hyderabad, Telangana starts from ₹8 lakhs. Enjoy superior mileage and top features across 3 variants. Avail exclusive Summer 2025 offers and best deals at Saboo AutoZone. Call now 91002 55555 for details!"
         />
         <meta
           property="twitter:image"

@@ -15,32 +15,29 @@ function Partner4Tyre() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland Partner 4 Tire on Road Price in Hyderabad | Mileage &
-          Specifications </title>
+        Ashok Leyland Partner 4 Tyre On-Road Price in Hyderabad | Best Summer Offers 2025 | Mileage & Specifications</title>
         <meta
           name="title"
-          content="Ashok Leyland Partner 4 Tire on Road Price in Hyderabad | Mileage & Specifications"
+          content="Ashok Leyland Partner 4 Tyre On-Road Price in Hyderabad | Best Summer Offers 2025 | Mileage & Specifications"
         />
         <meta
           name="description"
-          content="Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications,mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Partner 6-Tyre Truck on-road price in Hyderabad starts from ₹XX lakhs. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore mileage, specifications, features, and the best deals. Call 91002 55555 today!"
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Partner Price, Specifications, Features & Mileage,Ashok Leyland Partner Price, Specifications, Features & Mileage,Ashok Leyland  Partner Price,Ashok Leyland Partner Specifications,Ashok Leyland Partner Features,Ashok Leyland Partner Mileage,2025 Ashok Leyland Partner Festive Offers,
-                   Best Price Ashok Leyland Partner 2025,Ashok Leyland Partner on-road Price Hyderabad,Ashok Leyland Partner Latest Offers,Ashok Leyland Partner Vehicle Offers 2025,
-                   Ashok Leyland Partner  Discount Offers"
+          content="Ashok Leyland Partner Summer Offers 2025, Ashok Leyland Partner Price in Hyderabad, Ashok Leyland Partner Best Deals, Ashok Leyland Partner On-Road Price Hyderabad, Ashok Leyland Partner Mileage & Specifications, Ashok Leyland Partner Features & Discounts, Best Price for Ashok Leyland Partner 2025, Ashok Leyland Partner Latest Summer Offers, Ashok Leyland Commercial Vehicle Summer Discounts, Ashok Leyland Partner Exclusive Deals 2025."
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland Partner 4 Tire on Road Price in Hyderabad | Mileage & Specifications"
+          content="Ashok Leyland Partner 4 Tyre On-Road Price in Hyderabad | Best Summer Offers 2025 | Mileage & Specifications"
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications,mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Partner 6-Tyre Truck on-road price in Hyderabad starts from ₹XX lakhs. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore mileage, specifications, features, and the best deals. Call 91002 55555 today!"
         />
         <meta
           property="og:image"
@@ -51,11 +48,11 @@ function Partner4Tyre() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland Partner 4 Tire on Road Price in Hyderabad | Mileage & Specifications"
+          content="Ashok Leyland Partner 4 Tyre On-Road Price in Hyderabad | Best Summer Offers 2025 | Mileage & Specifications"
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications,mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Partner 6-Tyre Truck on-road price in Hyderabad starts from ₹XX lakhs. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore mileage, specifications, features, and the best deals. Call 91002 55555 today!"
         />
         <meta
           property="twitter:image"

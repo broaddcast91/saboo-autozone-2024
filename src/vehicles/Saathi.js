@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import { Helmet } from 'react-helmet';
 
 
 import { Link, useNavigate } from "react-router-dom";
@@ -15,6 +16,52 @@ export const Saathi = () => {
   return (
     
     <div>
+       <Helmet>
+        <title>
+        Ashok Leyland Saathi Price in Hyderabad | Best Summer Offers 2025 | Saboo AutoZone
+        </title>
+        <meta
+          name="title"
+          content="Ashok Leyland Saathi Price in Hyderabad | Best Summer Offers 2025 | Saboo AutoZone"
+        />
+        <meta
+          name="description"
+          content="Get the best Ashok Leyland  Saathi  Summer Offers 2025 in Hyderabad! On-road price starts from ₹8 lakh. Avail exclusive summer discounts, explore  Saathi  specifications, mileage, and features at Saboo AutoZone showrooms. Call 91002 55555 for the best deals today!"
+        />
+        <meta
+          name="keywords"
+          content="Ashok Leyland Dost CNG Summer Offers 2025, Ashok Leyland Dost CNG Price in Hyderabad, Ashok Leyland Dost CNG Best Deals, Ashok Leyland Dost BS6 Price in Hyderabad, Ashok Leyland Dost CNG Mileage & Features, Ashok Leyland Dost On-Road Price Hyderabad, Ashok Leyland Summer Discounts Hyderabad, Ashok Leyland Dost CNG Service Offers, Ashok Leyland Hyderabad Showroom Offers, Best Ashok Leyland Dost Deals in Hyderabad."
+        />
+        <meta name="author" content="Broaddcast" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.sabooautozone.com/" />
+        <meta
+          property="og:title"
+          content="Ashok Leyland Saathi Price in Hyderabad | Best Summer Offers 2025 | Saboo AutoZone"
+        />
+        <meta
+          property="og:description"
+          content="Get the best Ashok Leyland  Saathi  Summer Offers 2025 in Hyderabad! On-road price starts from ₹8 lakh. Avail exclusive summer discounts, explore  Saathi  specifications, mileage, and features at Saboo AutoZone showrooms. Call 91002 55555 for the best deals today!"
+        />
+        {/* <meta
+          property="og:image"
+          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-dost-cng.jpg"
+        /> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.sabooautozone.com/" />
+        <meta
+          property="twitter:title"
+          content="Ashok Leyland Saathi Price in Hyderabad | Best Summer Offers 2025 | Saboo AutoZone"
+        />
+        <meta
+          property="twitter:description"
+          content="Get the best Ashok Leyland  Saathi  Summer Offers 2025 in Hyderabad! On-road price starts from ₹8 lakh. Avail exclusive summer discounts, explore  Saathi  specifications, mileage, and features at Saboo AutoZone showrooms. Call 91002 55555 for the best deals today!"
+        />
+        {/* <meta
+          property="twitter:image"
+          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-dost-cng.jpg"
+        /> */}
+      </Helmet>
       <Header />
       <SaathiBanner/>
       <div className="container my-5">
@@ -83,6 +130,7 @@ const TitleWithImg = () => {
 
   return (
     <>
+   
       <div className="mb-2 row">
         <div className="mb-3 overflow-hidden col-lg-6">
           <img

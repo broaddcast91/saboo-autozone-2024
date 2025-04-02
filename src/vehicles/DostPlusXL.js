@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import { Helmet } from 'react-helmet';
 
 
 import { Link, useNavigate } from "react-router-dom";
@@ -16,6 +17,52 @@ import { Button, Row, Col, Form, Accordion, Table } from "react-bootstrap";
 export default function DostPlusXL() {
   return (
     <div>
+      <Helmet>
+              <title>
+              Ashok Leyland Dost+ XL Price in Hyderabad | Exclusive Summer Offers 2025 | Saboo AutoZone
+              </title>
+              <meta
+                name="title"
+                content=" Ashok Leyland Dost+ XL Price in Hyderabad | Exclusive Summer Offers 2025 | Saboo AutoZone"
+              />
+              <meta
+                name="description"
+                content="Get the best Summer 2025 offers on Ashok Leyland Dost+ XL in Hyderabad. On-road price starts from ₹8 lakh. Explore mileage, specifications, features, and exclusive discounts at Saboo AutoZone. Call 91002 55555 for the latest deals!"
+              />
+              <meta
+                name="keywords"
+                content="Ashok Leyland Dost+ XL Summer Offers 2025, Ashok Leyland Dost+ XL Price in Hyderabad, Ashok Leyland Dost+ XL Best Deals, Ashok Leyland Dost+ XL On-Road Price Hyderabad, Ashok Leyland Dost+ XL Mileage & Specifications, Ashok Leyland Dost+ XL Features & Discounts, Best Price for Ashok Leyland Dost+ XL 2025, Ashok Leyland Dost+ XL Latest Summer Offers, Ashok Leyland Commercial Vehicle Summer Discounts, Ashok Leyland Dost+ XL Exclusive Deals 2025."
+              />
+              <meta name="author" content="Broaddcast" />
+              <meta property="og:type" content="website" />
+              <meta property="og:url" content="https://www.sabooautozone.com/" />
+              <meta
+                property="og:title"
+                content=" Ashok Leyland Dost+ XL Price in Hyderabad | Exclusive Summer Offers 2025 | Saboo AutoZone"
+              />
+              <meta
+                property="og:description"
+                content="Get the best Summer 2025 offers on Ashok Leyland Dost+ XL in Hyderabad. On-road price starts from ₹8 lakh. Explore mileage, specifications, features, and exclusive discounts at Saboo AutoZone. Call 91002 55555 for the latest deals!"
+              />
+              {/* <meta
+                property="og:image"
+                content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-dost-cng.jpg"
+              /> */}
+              <meta property="twitter:card" content="summary_large_image" />
+              <meta property="twitter:url" content="https://www.sabooautozone.com/" />
+              <meta
+                property="twitter:title"
+                content=" Ashok Leyland Dost+ XL Price in Hyderabad | Exclusive Summer Offers 2025 | Saboo AutoZone"
+              />
+              <meta
+                property="twitter:description"
+                content="Get the best Summer 2025 offers on Ashok Leyland Dost+ XL in Hyderabad. On-road price starts from ₹8 lakh. Explore mileage, specifications, features, and exclusive discounts at Saboo AutoZone. Call 91002 55555 for the latest deals!"
+              />
+              {/* <meta
+                property="twitter:image"
+                content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-dost-cng.jpg"
+              /> */}
+            </Helmet>
     <Header />
     <DostPlusXLBanner/>
     <div className="container my-5">

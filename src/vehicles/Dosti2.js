@@ -15,35 +15,30 @@ function Dosti2() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland Bada Dost i2 on-road price in Hyderabad – Best festive
-          offers. Contact and visit Saboo AutoZone today.
+        Ashok Leyland Bada Dost i2 Summer Offers 2025 | Best Price in Hyderabad | Saboo AutoZone
         </title>
         <meta
           name="title"
-          content="Ashok Leyland Bada Dost i2 On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
+          content="Ashok Leyland Bada Dost i2 Summer Offers 2025 | Best Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           name="description"
-          content="Ashok Leyland Bada Dost Small Commercial Vehicle will be available in four variants i1, i2, i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 10lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
+          content="Ashok Leyland Bada Dost Small Commercial Vehicle is available in i1, i2, i3, and i4 variants. Bada Dost i3 LS is priced at ₹8.75 lakh, and Bada Dost i4 at ₹10 lakh. Get exclusive Summer 2025 offers at Saboo AutoZone. Call 91002 55555 for the best deals on features & specifications!"
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Bada Dost i2 Price, Specifications, Features & Mileage,Ashok Leyland Bada Dost i2 Price,Ashok Leyland Bada Dost i2 Specifications,Ashok Leyland Bada Dost i2 Features,Ashok Leyland Bada Dost i2 Mileage,2025 Ashok Leyland Bada Dost i2 Festive Offers,
-                   Best Price Ashok Leyland Bada Dost i1 2025,Ashok Leyland Bada Dost i1 on-road Price Hyderabad,Ashok Leyland Bada Dost i1 Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
-                   Ashok Leyland Bada Dost i2 Discount Offers"
+          content="Ashok Leyland Bada Dost i2 Summer Offers 2025, Ashok Leyland Bada Dost i2 Price in Hyderabad, Ashok Leyland Bada Dost i2 Best Deals, Ashok Leyland Bada Dost i2 On-Road Price Hyderabad, Ashok Leyland Bada Dost i2 Mileage & Specifications, Ashok Leyland Bada Dost i2 Features & Discounts, Best Price for Ashok Leyland Bada Dost i2 2025, Ashok Leyland Commercial Vehicle Summer Discounts, Ashok Leyland Bada Dost i2 Latest Summer Deals, Ashok Leyland Small Commercial Vehicle Offers 2025."
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content="Ashok Leyland Bada Dost i2 On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
+          content="Ashok Leyland Bada Dost i2 Summer Offers 2025 | Best Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Bada Dost i2 Small Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 10lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
+          content="Ashok Leyland Bada Dost Small Commercial Vehicle is available in i1, i2, i3, and i4 variants. Bada Dost i3 LS is priced at ₹8.75 lakh, and Bada Dost i4 at ₹10 lakh. Get exclusive Summer 2025 offers at Saboo AutoZone. Call 91002 55555 for the best deals on features & specifications!"
         />
         <meta
           property="og:image"
@@ -53,12 +48,11 @@ function Dosti2() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content="Ashok Leyland Bada Dost i2 On Road Price in Hyderabad – Best festive
-          offers.| Saboo AutoZone today."
+          content="Ashok Leyland Bada Dost i2 Summer Offers 2025 | Best Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 10lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
+          content="Ashok Leyland Bada Dost Small Commercial Vehicle is available in i1, i2, i3, and i4 variants. Bada Dost i3 LS is priced at ₹8.75 lakh, and Bada Dost i4 at ₹10 lakh. Get exclusive Summer 2025 offers at Saboo AutoZone. Call 91002 55555 for the best deals on features & specifications!"
         />
         <meta
           property="twitter:image"

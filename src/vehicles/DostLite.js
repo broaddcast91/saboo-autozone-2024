@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { IoIosHome } from "react-icons/io";
-import { IoLocationOutline } from "react-icons/io5";
+// import { IoLocationOutline } from "react-icons/io5";
 import { Button, Row, Col, Form, Accordion, Table } from "react-bootstrap";
 import { BsDownload } from "react-icons/bs";
 import axios from "axios";
@@ -15,35 +15,30 @@ function DostLite() {
     <>
       <Helmet>
         <title>
-          Ashok Leyland Dost LiTE BS – VI on Road Price in Hyderabad – Best
-          festive offers.| Saboo AutoZone today.
+        Ashok Leyland Dost LiTE BS-VI Summer Offers 2025 | Best On-Road Price in Hyderabad | Saboo AutoZone
         </title>
         <meta
           name="title"
-          content=" Ashok Leyland Dost LiTE BS – VI on Road Price in Hyderabad – Best
-          festive offers.| Saboo AutoZone today."
+          content="Ashok Leyland Dost LiTE BS-VI Summer Offers 2025 | Best On-Road Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           name="description"
-          content="The Ashok Leyland Dost LiTE BS – VI on road price starts from Rs.8*Lakh in Hyderabad. Check out best offers, loan Simulation & Installment for Ashok Leyland DOST LiTE BS-VI at Saboo AutoZone."
+          content="The Ashok Leyland Dost LiTE BS-VI on-road price starts from ₹8 lakh in Hyderabad. Avail exclusive Summer 2025 offers, easy loan simulation, and flexible installment plans at Saboo AutoZone. Contact us today for the best deals!"
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Bada Dost Strong Discount Offers,Ashok Leyland Dost Strong Price, Specifications, Features & Mileage,Ashok Leyland Bada Dost Strong Price,Ashok Leyland Bada Dost Strong Specifications,Ashok Leyland Bada Dost Strong Features,Ashok Leyland Bada Dost Strong Mileage,2025 Ashok Leyland Bada Dost Strong Festive Offers,
-                   Best Price Ashok Leyland Bada Dost Strong 2025,Ashok Leyland Bada Dost Strong on-road Price Hyderabad,Ashok Leyland Bada Dost Strong Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
-                   Ashok Leyland Bada Dost Strong Discount Offers"
+          content="Ashok Leyland Bada Dost Strong Summer Offers 2025, Ashok Leyland Bada Dost Strong Price in Hyderabad, Ashok Leyland Bada Dost Strong Best Deals, Ashok Leyland Bada Dost Strong On-Road Price Hyderabad, Ashok Leyland Bada Dost Strong Mileage & Specifications, Ashok Leyland Bada Dost Strong Features & Discounts, Best Price for Ashok Leyland Bada Dost Strong 2025, Ashok Leyland Commercial Vehicle Summer Discounts, Ashok Leyland Bada Dost Strong Latest Summer Deals, Ashok Leyland Small Commercial Vehicle Offers 2025."
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content=" Ashok Leyland Dost LiTE BS – VI on Road Price in Hyderabad – Best
-          festive offers.| Saboo AutoZone today."
+          content="Ashok Leyland Dost LiTE BS-VI Summer Offers 2025 | Best On-Road Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           property="og:description"
-          content="The Ashok Leyland Dost LiTE BS – VI on road price starts from Rs.8*Lakh in Hyderabad. Check out best offers, loan Simulation & Installment for Ashok Leyland DOST LiTE BS-VI at Saboo AutoZone."
+          content="The Ashok Leyland Dost LiTE BS-VI on-road price starts from ₹8 lakh in Hyderabad. Avail exclusive Summer 2025 offers, easy loan simulation, and flexible installment plans at Saboo AutoZone. Contact us today for the best deals!"
         />
         <meta
           property="og:image"
@@ -53,12 +48,11 @@ function DostLite() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content=" Ashok Leyland Dost LiTE BS – VI on Road Price in Hyderabad – Best
-          festive offers.| Saboo AutoZone today."
+          content="Ashok Leyland Dost LiTE BS-VI Summer Offers 2025 | Best On-Road Price in Hyderabad | Saboo AutoZone"
         />
         <meta
           property="twitter:description"
-          content="The Ashok Leyland Dost LiTE BS – VI on road price starts from Rs.8*Lakh in Hyderabad. Check out best offers, loan Simulation & Installment for Ashok Leyland DOST LiTE BS-VI at Saboo AutoZone."
+          content="The Ashok Leyland Dost LiTE BS-VI on-road price starts from ₹8 lakh in Hyderabad. Avail exclusive Summer 2025 offers, easy loan simulation, and flexible installment plans at Saboo AutoZone. Contact us today for the best deals!"
         />
         <meta
           property="twitter:image"

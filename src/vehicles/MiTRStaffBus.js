@@ -24,35 +24,30 @@ function MiTRStaffBus() {
     <>
       <Helmet>
         <title>
-          Mitr Staff Bus Price in Hyderabad– Best festive offers | Saboo
-          AutoZone today.
+        Ashok Leyland Mitr Staff Bus Price in Hyderabad – Best Summer Offers 2025 | Saboo AutoZone Today!
         </title>
         <meta
           name="title"
-          content="Mitr Staff Bus Price in Hyderabad – Best festive
-          offers | Saboo AutoZone today."
+          content="Ashok Leyland Mitr Staff Bus Price in Hyderabad – Best Summer Offers 2025 | Saboo AutoZone Today!"
         />
         <meta
           name="description"
-          content="Ashok Leyland Mitr staff bus on-road price in Hyderabad. Check out Mitr staff bus technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Mitr Staff Bus on-road price in Hyderabad starts from ₹XX lakhs. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore Mitr Staff Bus mileage, specifications, features, and the best discounts. Call 91002 55555 today!"
         />
         <meta
           name="keywords"
-          content="Ashok Leyland Mitr Staff bus Price, Specifications, Features & Mileage,Ashok Leyland Mitr staff Price, Specifications, Features & Mileage,Ashok Leyland  Mitr staff Price,Ashok Leyland Mitr staff Specifications,Ashok Leyland Mitr staff Features,Ashok Leyland Mitr staff Mileage,2025 Ashok Leyland Mitr staff Festive Offers,
-                   Best Price Ashok Leyland  Mitr staff 2025,Ashok Leyland Mitr staff on-road Price Hyderabad,Ashok Leyland Mitr staff Latest Offers,Ashok Leyland Commercial Vehicle Offers 2025,
-                   Ashok Leyland  Mitr staff Discount Offers"
+          content="Ashok Leyland Mitr Staff Bus Summer Offers 2025, Ashok Leyland Mitr Staff Bus Price in Hyderabad, Ashok Leyland Mitr Staff Bus Best Deals, Ashok Leyland Mitr Staff Bus On-Road Price Hyderabad, Ashok Leyland Mitr Staff Bus Mileage & Specifications, Ashok Leyland Mitr Staff Bus Features & Discounts, Best Price for Ashok Leyland Mitr Staff Bus 2025, Ashok Leyland Mitr Staff Bus Latest Summer Offers, Ashok Leyland Commercial Vehicle Summer Discounts, Ashok Leyland Mitr Staff Bus Exclusive Deals 2025."
         />
         <meta name="author" content="Broaddcast" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.sabooautozone.com/" />
         <meta
           property="og:title"
-          content=" Mitr Staff Bus Price in Hyderabad– Best festive offers | Saboo
-          AutoZone today."
+          content="Ashok Leyland Mitr Staff Bus Price in Hyderabad – Best Summer Offers 2025 | Saboo AutoZone Today."
         />
         <meta
           property="og:description"
-          content="Ashok Leyland Mitr staff bus on-road price in Hyderabad. Check out Mitr staff bus technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Mitr Staff Bus on-road price in Hyderabad starts from ₹XX lakhs. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore Mitr Staff Bus mileage, specifications, features, and the best discounts. Call 91002 55555 today!"
         />
         <meta
           property="og:image"
@@ -62,12 +57,11 @@ function MiTRStaffBus() {
         <meta property="twitter:url" content="https://www.sabooautozone.com/" />
         <meta
           property="twitter:title"
-          content=" Mitr Staff Bus Price in Hyderabad – Best festive offers | Saboo
-          AutoZone today."
+          content="Ashok Leyland Mitr Staff Bus Price in Hyderabad – Best Summer Offers 2025 | Saboo AutoZone Today!"
         />
         <meta
           property="twitter:description"
-          content="Ashok Leyland Mitr staff bus on-road price in Hyderabad. Check out Mitr staff bus technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+          content="Ashok Leyland Mitr Staff Bus on-road price in Hyderabad starts from ₹XX lakhs. Avail exclusive Summer 2025 offers at Saboo AutoZone. Explore Mitr Staff Bus mileage, specifications, features, and the best discounts. Call 91002 55555 today!."
         />
         <meta
           property="twitter:image"
