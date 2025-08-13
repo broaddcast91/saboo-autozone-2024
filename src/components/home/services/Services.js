@@ -11,6 +11,7 @@ import "swiper/css/navigation";
 
 // import Swiper core and required modules
 import SwiperCore, { Pagination, Navigation } from "swiper";
+import OurCoreValues from "../OurCoreValues/OurCoreValues";
 
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
@@ -31,10 +32,10 @@ function Services() {
 
   return (
     <>
-      <div className="container-fluid bg-light py-5 mt-5">
+      <div className="py-5 mt-5 container-fluid bg-light">
         <div className="container">
           <h6
-            className="text-uppercase text-center"
+            className="text-center text-uppercase"
             style={{ color: "#faa730", letterSpacing: "1px" }}
           >
             services
@@ -42,10 +43,10 @@ function Services() {
           <h3 className="mb-3 text-center">
             Our professional and well-trained staff is ready to assist
           </h3>
-          <div className="row mt-5">
-            <div className="col-lg-4 col-md-6 mb-3">
+          <div className="mt-5 row">
+            <div className="mb-3 col-lg-4 col-md-6">
               {/* <a href="book-a-service.php"> */}
-              <div className="serv-section-2 bg-white shadow">
+              <div className="bg-white shadow serv-section-2">
                 <div className="serv-section-2-icon">
                   <figure>
                     <img
@@ -66,9 +67,9 @@ function Services() {
               </div>
               {/* </a> */}
             </div>
-            <div className="col-lg-4 col-md-6 mb-3">
+            <div className="mb-3 col-lg-4 col-md-6">
               {/* <a href="#"> */}
-              <div className="serv-section-2 serv-section-2-act bg-white shadow">
+              <div className="bg-white shadow serv-section-2 serv-section-2-act">
                 <div className="serv-section-2-icon serv-section-2-icon-act">
                   <figure>
                     <img
@@ -88,9 +89,9 @@ function Services() {
               </div>
               {/* </a> */}
             </div>
-            <div className="col-lg-4 col-md-6 mb-3">
+            <div className="mb-3 col-lg-4 col-md-6">
               {/* <a href="finance.php"> */}
-              <div className="serv-section-2 bg-white shadow">
+              <div className="bg-white shadow serv-section-2">
                 <div className="serv-section-2-icon">
                   <figure>
                     <img
@@ -114,6 +115,7 @@ function Services() {
           </div>
         </div>
       </div>
+       {/* <OurCoreValues/> */}
       <Testimonials />
     </>
   );
@@ -151,7 +153,7 @@ const Testimonials = () => {
   return (
     <div className="container my-5">
       <h6
-        className="text-uppercase text-center"
+        className="text-center text-uppercase"
         style={{ color: "#faa730", letterSpacing: "1px" }}
       >
         Testimonials
@@ -184,7 +186,7 @@ const Testimonials = () => {
       >
         {reviews.map((review) => (
           <SwiperSlide className="slider-testimonial" key={review.name}>
-            <div className="testimonial-box shadow">
+            <div className="shadow testimonial-box">
               <div className="user-img"></div>
               <div className="text">
                 <span className="quote">

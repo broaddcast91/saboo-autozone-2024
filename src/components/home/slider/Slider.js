@@ -18,6 +18,12 @@ const banners = [
   //   id: 1,
   //   banner_img: require('../../../img/BADA-DOST/Saboo Autozone Bada Dost i1 Home Banner.webp'),
   // },
+   {
+    id: 1,
+    banner_img: require("../../../img/saathi/banner_saathi.png"),
+      
+  },
+  
   {
     id: 2,
     banner_img: require("../../../img/BADA-DOST/Saboo Autozone Bada Dost i2 Home Banner.webp"),
@@ -136,15 +142,13 @@ const RequestCall = () => {
 
   return (
     <>
-      <div
+    <div
         className="py-5 section"
         style={{ backgroundColor: "#0d2034", color: "white" }}
       >
-        <div className="container">
-          <h4 className="mb-4 text-3xl font-weight-bold">
-            Request a Call back
-          </h4>
-          <div className="mb-4 font-weight-light">
+      <div className='container px-4 mx-auto'>
+        <h4 className='mb-4 text-3xl font-bold'>Request a Call back</h4>
+        <div className='mb-4 font-light'>
             Please get in touch with our support team and expect a response
             within 24 working hours.
           </div>
@@ -158,7 +162,7 @@ const RequestCall = () => {
                     name="name"
                     value={name}
                     onChange={(e) => onInputChange(e)}
-                    style={{ lineHeight: "28px" }}
+                      className='w-full px-4 py-2 border border-gray-300 rounded-3xl focus:outline-none focus:ring-2 focus:ring-blue-500'
                   />
                   <InputGroup.Text>
                     <GoPerson />
@@ -171,7 +175,7 @@ const RequestCall = () => {
                   <FormControl
                     placeholder="Email"
                     type="email"
-                    style={{ lineHeight: "28px" }}
+                   className='w-full px-4 py-2 border border-gray-300 rounded-3xl focus:outline-none focus:ring-2 focus:ring-blue-500'
                     ftype="email"
                     id="Email"
                     name="email"
@@ -185,7 +189,7 @@ const RequestCall = () => {
               </div>
 
               <div className="col-lg-3 col-md-6 col-12">
-                <InputGroup className="mb-3">
+                <InputGroup className="mb-3 ">
                   <FormControl
                     placeholder="Mobile"
                     type="text"
@@ -194,7 +198,7 @@ const RequestCall = () => {
                     value={mobile}
                     onChange={(e) => onInputChange(e)}
                     maxLength={10}
-                    style={{ lineHeight: "28px" }}
+                   className='w-full px-4 py-2 border-gray-300 rounded-3xl focus:outline-none focus:ring-2 focus:ring-blue-500'
                   />
                   <InputGroup.Text>
                     <FiPhoneCall />
@@ -202,7 +206,7 @@ const RequestCall = () => {
                 </InputGroup>
               </div>
               <div className="col-lg-2 col-md-6 col-12">
-                <Button
+               <Button
                   className="btn btn-danger text-uppercase w-100"
                   type="submit"
                   style={{ lineHeight: "28px" }}

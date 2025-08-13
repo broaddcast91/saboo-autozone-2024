@@ -11,7 +11,6 @@ import {
   FaAngleDoubleRight,
   FaPinterest,
 } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
 import { MdPhoneInTalk } from 'react-icons/md';
 import { Button } from 'react-bootstrap';
 
@@ -57,26 +56,24 @@ function Footer() {
                 <div className='mt-1 mb-3 c09ew341'></div>
               </h4>
               <ul className='webintern-footer-list'>
-              <li>
+                <li>
                   <Link to='/dostplusXL-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland DOST + XL
                   </Link>
                 </li>
-              <li>
+                <li>
                   <Link to='/Saathi-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland SAATHI
                   </Link>
                 </li>
-
-                <li>
-                  <Link to='/bada-dost-i2-on-road-price-in-hyderabad'>
-                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i2
-                  </Link>
-                </li>
-
                 <li>
                   <Link to='/bada-dost-i4-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland BADA DOST i4
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/bada-dost-i3-on-road-price-in-hyderabad'>
+                    <FaAngleDoubleRight /> Ashok Leyland BADA DOST i3
                   </Link>
                 </li>
                 <li>
@@ -87,6 +84,11 @@ function Footer() {
                 <li>
                   <Link to='/dost-strong-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland DOST STRONG
+                  </Link>
+                </li>
+                <li>
+                  <Link to='/dost-lite-on-road-price-in-hyderabad'>
+                    <FaAngleDoubleRight /> Ashok Leyland DOST LiTE
                   </Link>
                 </li>
               </ul>
@@ -100,18 +102,8 @@ function Footer() {
               </h4>
               <ul className='webintern-footer-list'>
                 <li>
-                  <Link to='/dost-lite-on-road-price-in-hyderabad'>
-                    <FaAngleDoubleRight /> Ashok Leyland DOST LiTE
-                  </Link>
-                </li>
-                <li>
                   <Link to='/dost-cng-on-road-price-in-hyderabad'>
                     <FaAngleDoubleRight /> Ashok Leyland DOST CNG
-                  </Link>
-                </li>
-                <li>
-                  <Link to='/dost-plus-cng-on-road-price-in-hyderabad'>
-                    <FaAngleDoubleRight /> Ashok Leyland DOST+ CNG
                   </Link>
                 </li>
                 <li>
@@ -169,12 +161,12 @@ function Footer() {
                 </li>
                 <li className='me-2'>
                   <a href='https://twitter.com/sabooautozone1' target='_blank'>
-                    <FaXTwitter />
+                    <FaTwitter />
                   </a>
                 </li>
                 <li className='me-2'>
                   <a
-                    href='https://www.instagram.com/saboo_autozone/'
+                    href='https://www.instagram.com/sabooautozone/'
                     target='_blank'
                   >
                     <FaInstagram />
@@ -221,19 +213,16 @@ const CopyRight = () => {
         <div className='py-3 row align-items-center'>
           <div className='col-xl-6 col-lg-6 col-md-12'>
             <p className='text-white footer-text'>
-              <Link
-                to='/terms-and-conditions'
-                className='text-white text-decoration-none'
-              >
+              <Link to='/' className='text-white text-decoration-none'>
                 Terms &amp; Conditions
               </Link>{' '}
               | &nbsp;
-              <Link to='/' href='' className='text-white text-decoration-none'>
+              <Link
+                to='/'
+                href='privacy-policy.php'
+                className='text-white text-decoration-none'
+              >
                 Privacy Policy
-              </Link>{' '}
-              | &nbsp;
-              <Link to='/' className='text-white text-decoration-none'>
-                Careers
               </Link>{' '}
               <br />©{' '}
               <script type='text/javascript'>
@@ -250,11 +239,12 @@ const CopyRight = () => {
           </div>
           <div className='col-xl-6 col-lg-6 col-md-12'>
             <p className='text-white text-end footer-text'>
-              Designed by{' '}
+              Designed &amp; Developed by{' '}
               <a
                 target='_blank'
                 href='https://www.broaddcast.com/'
-                className='text-white text-decoration-none'
+                rel='noopener noreferrer'
+                className='link-white'
               >
                 Broaddcast Business Solutions LLP
               </a>

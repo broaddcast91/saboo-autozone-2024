@@ -1,57 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { IoIosHome } from 'react-icons/io';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
+import SEO from '../components/SEO/SEO';
 
 function BadaDost() {
   return (
     <>
-      <Helmet>
-        <title>Ashok Leyland Bada Dost on Road Price in Hyderabad</title>
-        <meta
-          name='title'
-          content='Ashok Leyland Bada Dost on Road Price in Hyderabad | Saboo AutoZone'
-        />
-        <meta
-          name='description'
-          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 8.52 lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
-        />
-        <meta
-          name='keywords'
-          content='Ashok Leyland Bada Dost on Road Price in Hyderabad'
-        />
-        <meta name='author' content='Broaddcast' />
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://www.sabooautozone.com/' />
-        <meta
-          property='og:title'
-          content='Ashok Leyland Bada Dost on Road Price in Hyderabad | Saboo AutoZone'
-        />
-        <meta
-          property='og:description'
-          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 8.52 lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
-        />
-        <meta
-          property='og:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-bada-dost-i3.jpg'
-        />
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://www.sabooautozone.com/' />
-        <meta
-          property='twitter:title'
-          content='Ashok Leyland Bada Dost on Road Price in Hyderabad | Saboo AutoZone'
-        />
-        <meta
-          property='twitter:description'
-          content="Ashok Leyland Bada Dost Light Commercial Vehicle will be available in two variants -i3 and i4.  Bada Dost 'i3 LS' is priced at INR 8.75 lakhs &  Bada Dost i4 priced at 8.52 lakh.  For more info about Bada Dost features & specifications call us 91002 55555."
-        />
-        <meta
-          property='twitter:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-bada-dost-i3.jpg'
-        />
-      </Helmet>
+      <SEO
+        title='Ashok Leyland Bada Dost On-Road Price in Hyderabad | August Monsoon Offers 2025 & Huge Discounts | Saboo AutoZone'
+        description='Ashok Leyland Bada Dost Light Commercial Vehicle is available in two powerful variants – i3 and i4. Bada Dost i3 LS is priced at ₹8.75 lakh and i4 at ₹8.52 lakh (on-road Hyderabad). Enjoy massive August Monsoon Festive Offers 2025 at Saboo AutoZone. Explore mileage, payload, specs & exclusive discounts. Call 91002 55555 now!'
+        keywords='Ashok Leyland Bada Dost August Offers 2025, Ashok Leyland Bada Dost On-Road Price in Hyderabad, Bada Dost i3 i4 Price & Features, Ashok Leyland LCV Best Deals, Ashok Leyland Bada Dost Festive Discounts Hyderabad, Ashok Leyland Bada Dost Mileage & Specs, Commercial Vehicle Offers 2025 Hyderabad, Bada Dost Payload Capacity, Saboo AutoZone Ashok Leyland Bada Dost, Buy Ashok Leyland Bada Dost in Hyderabad'
+        image='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-bada-dost-i3.jpg'
+      />
+
       <Header />
       <BadaDostBanner />
       <div className='container my-5'>
@@ -63,7 +27,7 @@ function BadaDost() {
                 className='w-100'
                 alt='Bada-Dost-i4'
               />
-              <h4 className='bg-secondary py-3 text-center text-white'>
+              <h4 className='py-3 text-center text-white bg-secondary'>
                 Bada Dost i4
               </h4>
             </Link>
@@ -75,7 +39,7 @@ function BadaDost() {
                 className='w-100'
                 alt='Bada-Dost-i3'
               />
-              <h4 className='bg-secondary py-3 text-center text-white'>
+              <h4 className='py-3 text-center text-white bg-secondary'>
                 Bada Dost i3
               </h4>
             </Link>
@@ -95,11 +59,11 @@ const BadaDostBanner = () => {
         src={require('../img/Bada-Dost-banner.webp')}
         alt='Bada-Dost-banner'
       />
-      <div className='container-fluid bg-white py-3 shadow-sm'>
+      <div className='py-3 bg-white shadow-sm container-fluid'>
         <div className='container'>
-          <ol className='breadcrumb mb-0'>
+          <ol className='mb-0 breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link className='text-decoration-none text-black' to='/'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>

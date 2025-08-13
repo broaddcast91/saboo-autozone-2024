@@ -2,10 +2,11 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import { ImCheckmark } from "react-icons/im";
-import { Helmet } from "react-helmet";
+
 import ReactGA from 'react-ga';
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import SEO from "../components/SEO/SEO";
 
 
 function ThankYou() {
@@ -16,49 +17,14 @@ function ThankYou() {
   }, []);
   return (
     <>
-      <Helmet>
-        <title>Thanks for Contacting Authorized Ashok Leyland Dealers</title>
-        <meta
-          name="title"
-          content="Thanks for Contacting Authorized Ashok Leyland Dealers"
-        />
-        <meta
-          name="description"
-          content="Thank you for sharing your concern & contact details with us. Our team member will connect with you in a short while to take this forward. Get in touch with Saboo AutoZone for best deals on Ashok Leyland Bada Dost, Dost +, Dost CNG, Dost Strong, Partner, Mitr School bus, Mitr Staff bus."
-        />
-        <meta name="keywords" content="Thank you for contacting us" />
-        <meta name="author" content="Broaddcast" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="og:title"
-          content="Thanks for Contacting Authorized Ashok Leyland Dealers"
-        />
-        <meta
-          property="og:description"
-          content="Thank you for sharing your concern & contact details with us. Our team member will connect with you in a short while to take this forward. Get in touch with Saboo AutoZone for best deals on Ashok Leyland Bada Dost, Dost +, Dost CNG, Dost Strong, Partner, Mitr School bus, Mitr Staff bus."
-        />
-        <meta
-          property="og:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-home.jpg"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="twitter:title"
-          content="Thanks for Contacting Authorized Ashok Leyland Dealers"
-        />
-        <meta
-          property="twitter:description"
-          content="Thank you for sharing your concern & contact details with us. Our team member will connect with you in a short while to take this forward. Get in touch with Saboo AutoZone for best deals on Ashok Leyland Bada Dost, Dost +, Dost CNG, Dost Strong, Partner, Mitr School bus, Mitr Staff bus."
-        />
-        <meta
-          property="twitter:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-home.jpg"
-        />
-      </Helmet>
+     <SEO
+        title="Thanks for Contacting Authorized Ashok Leyland Dealers"
+        description="Thank you for sharing your concern & contact details with us. Our team member will connect with you in a short while to take this forward. Get in touch with Saboo AutoZone for best deals on Ashok Leyland Bada Dost, Dost +, Dost CNG, Dost Strong, Partner, Mitr School bus, Mitr Staff bus."
+        keywords="Thank you for contacting us"
+        image="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-home.jpg"
+      />
       <Header />
-      <div className="text-center" style={{ margin: "112px 0" }}>
+      <div className="m-16 text-center" style={{ margin: "112px 0" }}>
         <h1 style={{ fontSize: "130px", color: "green" }}>
           <ImCheckmark />
         </h1>

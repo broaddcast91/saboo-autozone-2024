@@ -2,21 +2,21 @@ import React, { useState } from 'react';
 import './Header.css';
 import {
   FaFacebook,
+  FaTwitter,
   FaInstagram,
   FaYoutube,
   FaLinkedin,
   FaCaretDown,
   FaCaretRight,
 } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
 
 import { MdPhoneInTalk } from 'react-icons/md';
 import { Link, useNavigate } from 'react-router-dom';
 
-const TopHeader = () => {
-  // const [language, setLanguage] = useState(1);
+const TopHeader1 = () => {
+  const [language, setLanguage] = useState(1);
 
-  // localStorage.setItem('language', language);
+  localStorage.setItem('language', language);
 
   return (
     <div
@@ -39,10 +39,10 @@ const TopHeader = () => {
             rel='noreferrer'
             className='text-white me-2'
           >
-            <FaXTwitter size={17} className='header-links' />
+            <FaTwitter size={17} className='header-links' />
           </a>
           <a
-            href='https://www.instagram.com/saboo_autozone/'
+            href='https://www.instagram.com/sabooautozone/'
             target='_blank'
             rel='noreferrer'
             className='text-white me-2'
@@ -111,7 +111,13 @@ const TopHeader = () => {
             className='btn btn-danger'
             style={{ fontSize: '14px', backgroundColor: '#f9a730' }}
           >
-            Contact Us
+            {language === '1'
+              ? 'Contact Us'
+              : language === '2'
+              ? 'సంప్రదించండి'
+              : language === '3'
+              ? 'संपर्क'
+              : 'Contact Us'}
           </Link>
         </div>
       </div>
@@ -150,10 +156,10 @@ const MainHeader = () => {
     navigate('/awards');
     window.location.reload();
   }
-  function careersClick() {
-    navigate('/');
-    window.location.reload();
-  }
+  // function careersClick() {
+  //   navigate('/');
+  //   window.location.reload();
+  // }
 
   const [navbar, setNavbar] = useState(false);
 
@@ -201,17 +207,17 @@ const MainHeader = () => {
                     </Link>
                     <div className='header-dropdown'>
                       <ul className='p-0'>
-                      <li className='header-dropdown-link'>
-                                <Link to='/dostplusXL-on-road-price-in-hyderabad'>
-                                Ashok Leyland  DOST + XL
-                                </Link>
-                              </li>
+                        <li className='header-dropdown-link'>
+                          <Link to='/dostplusXL-on-road-price-in-hyderabad'>
+                            Ashok Leyland DOST + XL
+                          </Link>
+                        </li>
 
-                      <li className='header-dropdown-link'>
-                                <Link to='/Saathi-on-road-price-in-hyderabad'>
-                                Ashok Leyland  Saathi
-                                </Link>
-                              </li>
+                        <li className='header-dropdown-link'>
+                          <Link to='/Saathi-on-road-price-in-hyderabad'>
+                            Ashok Leyland Saathi
+                          </Link>
+                        </li>
                         <li className='header-dropdown-link'>
                           <Link to='/bada-dost-on-road-price-in-hyderabad'>
                             Ashok Leyland Bada Dost
@@ -365,11 +371,11 @@ const MainHeader = () => {
                       Awards
                     </Link>
                   </li>
-                  <li className='header-nav-link'>
+                  {/* <li className='header-nav-link'>
                     <Link to='/' onClick={careersClick}>
                       Careers
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -389,8 +395,9 @@ const MainHeader = () => {
 function Header() {
   return (
     <>
-      <TopHeader />
+      <TopHeader1 />
       <MainHeader />
+      {/* <MainHeader2/> */}
     </>
   );
 }

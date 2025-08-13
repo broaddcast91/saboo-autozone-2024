@@ -1,10 +1,11 @@
-import React, { useCallback, useState } from 'react';
+import React, {  useState } from 'react';
 import ImageViewer from 'react-simple-image-viewer';
 import { Link } from 'react-router-dom';
 import { IoIosHome } from 'react-icons/io';
-import { Helmet } from 'react-helmet';
+
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
+import SEO from '../components/SEO/SEO';
 
 function Awards() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -91,10 +92,10 @@ function Awards() {
     },
   ];
 
-  const openImageViewer = useCallback((index) => {
-    setCurrentImage(index);
-    setIsViewerOpen(true);
-  }, []);
+  // const openImageViewer = useCallback((index) => {
+  //   setCurrentImage(index);
+  //   setIsViewerOpen(true);
+  // }, []);
 
   const closeImageViewer = () => {
     setCurrentImage(0);
@@ -103,55 +104,18 @@ function Awards() {
 
   return (
     <>
-      <Helmet>
-        <title>
-          Awards & Achievements | Ashok Leyland Dealers in Hyderabad, Telangana
-        </title>
-        <meta
-          name='title'
-          content='Awards & Achievements | Ashok Leyland Dealers in Hyderabad, Telangana'
-        />
-        <meta
-          name='description'
-          content='Saboo AutoZone has won the several awards from Ashok Leyland. Won best light commercial Dealership award from Ashok Leyland.'
-        />
-        <meta name='keywords' content='Awards & Achievements' />
-        <meta name='author' content='Broaddcast' />
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://www.sabooautozone.com/' />
-        <meta
-          property='og:title'
-          content='Awards & Achievements | Ashok Leyland Dealers in Hyderabad, Telangana'
-        />
-        <meta
-          property='og:description'
-          content='Saboo AutoZone has won the several awards from Ashok Leyland. Won best light commercial Dealership award from Ashok Leyland.'
-        />
-        <meta
-          property='og:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-awards.jpg'
-        />
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://www.sabooautozone.com/' />
-        <meta
-          property='twitter:title'
-          content='Awards & Achievements | Ashok Leyland Dealers in Hyderabad, Telangana'
-        />
-        <meta
-          property='twitter:description'
-          content='Saboo AutoZone has won the several awards from Ashok Leyland. Won best light commercial Dealership award from Ashok Leyland.'
-        />
-        <meta
-          property='twitter:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-awards.jpg'
-        />
-      </Helmet>
+      <SEO
+        title="Awards & Achievements | Ashok Leyland Dealers in Hyderabad, Telangana"
+        description="Saboo AutoZone has won the several awards from Ashok Leyland. Won best light commercial Dealership award from Ashok Leyland."
+        keywords="Awards & Achievements"
+        image="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-awards.jpg"
+      />
       <Header />
       <AwardsBanner />
       <div className='container my-5'>
         <div className='row'>
           {images.map((src, index) => (
-            <div className='col-lg-3 col-sm-4 mb-3'>
+            <div className='mb-3 col-lg-3 col-sm-4'>
               <img
                 src={src.award_img}
                 // onClick={() => openImageViewer(index)}
@@ -187,11 +151,11 @@ const AwardsBanner = () => {
         src={require('../img/awards-banner.webp')}
         alt='awards-banner'
       />
-      <div className='container-fluid bg-white py-3 shadow-sm'>
+      <div className='py-3 bg-white shadow-sm container-fluid'>
         <div className='container'>
-          <ol className='breadcrumb mb-0'>
+          <ol className='mb-0 breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link className='text-decoration-none text-black' to='/'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>

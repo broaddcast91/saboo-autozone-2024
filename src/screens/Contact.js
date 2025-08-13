@@ -4,58 +4,21 @@ import { IoIosHome } from "react-icons/io";
 import { MdPhoneInTalk } from "react-icons/md";
 import { Button, Row, Col, Form } from "react-bootstrap";
 import axios from "axios";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import { toast } from "react-toastify";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import SEO from "../components/SEO/SEO";
 
 function Contact() {
   return (
     <div>
-      <Helmet>
-        <title>
-          Saboo AutoZone | Contact us for Ashok Leyland Light Commercial Trucks
-          Sales & Service
-        </title>
-        <meta
-          name="title"
-          content="Saboo AutoZone | Contact us for Ashok Leyland Light Commercial Trucks Sales & Service"
-        />
-        <meta
-          name="description"
-          content="Contact your nearest Saboo AutoZone showroom for any Ashok Leyland Commercial vehicle enquiry. For queries about any of the Ashok Leyland light commercial vehicles, feedback or complaints call now 91002 55555."
-        />
-        <meta name="keywords" content="CONTACT US" />
-        <meta name="author" content="Broaddcast" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="og:title"
-          content="Saboo AutoZone | Contact us for Ashok Leyland Light Commercial Trucks Sales & Service"
-        />
-        <meta
-          property="og:description"
-          content="Contact your nearest Saboo AutoZone showroom for any Ashok Leyland Commercial vehicle enquiry. For queries about any of the Ashok Leyland light commercial vehicles, feedback or complaints call now 91002 55555."
-        />
-        <meta
-          property="og:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-contact-us.jpg"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="twitter:title"
-          content="Saboo AutoZone | Contact us for Ashok Leyland Light Commercial Trucks Sales & Service"
-        />
-        <meta
-          property="twitter:description"
-          content="Contact your nearest Saboo AutoZone showroom for any Ashok Leyland Commercial vehicle enquiry. For queries about any of the Ashok Leyland light commercial vehicles, feedback or complaints call now 91002 55555."
-        />
-        <meta
-          property="twitter:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-contact-us.jpg"
-        />
-      </Helmet>
+         <SEO
+        title="Saboo AutoZone | Contact us for Ashok Leyland Light Commercial Trucks Sales & Service"
+        description="Contact your nearest Saboo AutoZone showroom for any Ashok Leyland Commercial vehicle enquiry. For queries about any of the Ashok Leyland light commercial vehicles, feedback or complaints call now 91002 55555."
+        keywords="CONTACT US"
+        image="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-contact-us.jpg"
+      />
       <Header />
       <ContactBanner />
       <ContactForm />

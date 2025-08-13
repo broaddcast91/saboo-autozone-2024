@@ -3,60 +3,21 @@ import { Link, useNavigate } from "react-router-dom";
 import { IoIosHome } from "react-icons/io";
 import { Button, Row, Col, Form } from "react-bootstrap";
 import axios from "axios";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import { toast } from "react-toastify";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import SEO from "../components/SEO/SEO";
 
 function Finance() {
   return (
     <div>
-      <Helmet>
-        <title>
-          Ashok Leyland Light Commercial Trucks Finance | Lowest EMI Options
-        </title>
-        <meta
-          name="title"
-          content="Ashok Leyland Light Commercial Trucks Finance | Lowest EMI Options"
-        />
-        <meta
-          name="description"
-          content="Ashok Leyland Light Commercial Trucks Finance service. Saboo AutoZone offer commercial truck loans with features like low down payment, low interest rates. For more info call us 91002 55555."
-        />
-        <meta
-          name="keywords"
-          content="Ashok Leyland Light Commercial Trucks Finance"
-        />
-        <meta name="author" content="Broaddcast" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="og:title"
-          content="Ashok Leyland Light Commercial Trucks Finance | Lowest EMI Options"
-        />
-        <meta
-          property="og:description"
-          content="Ashok Leyland Light Commercial Trucks Finance service. Saboo AutoZone offer commercial truck loans with features like low down payment, low interest rates. For more info call us 91002 55555."
-        />
-        <meta
-          property="og:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-finance.jpg"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="twitter:title"
-          content="Ashok Leyland Light Commercial Trucks Finance | Lowest EMI Options"
-        />
-        <meta
-          property="twitter:description"
-          content="Ashok Leyland Light Commercial Trucks Finance service. Saboo AutoZone offer commercial truck loans with features like low down payment, low interest rates. For more info call us 91002 55555."
-        />
-        <meta
-          property="twitter:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-finance.jpg"
-        />
-      </Helmet>
+        <SEO
+        title="Ashok Leyland Light Commercial Trucks Finance | Lowest EMI Options"
+        description="Ashok Leyland Light Commercial Trucks Finance service. Saboo AutoZone offer commercial truck loans with features like low down payment, low interest rates. For more info call us 91002 55555."
+        keywords="Ashok Leyland Light Commercial Trucks Finance"
+        image="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-finance.jpg"
+      />
       <Header />
       <FinanceBanner />
       <FinanceForm />

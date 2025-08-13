@@ -1,31 +1,34 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { IoIosHome } from "react-icons/io";
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { IoIosHome } from 'react-icons/io';
+import Header from '../components/header/Header';
+import Footer from '../components/footer/Footer';
+
 
 function Services() {
   return (
     <>
-    <Header />
+  
+
+      <Header />
       <ServiceBanner />
-      <div className="container my-5">
-        <div className="row">
-          <div className="col-6">
-            <Link to="/finance">
+      <div className='container my-5'>
+        <div className='row'>
+          <div className='col-6'>
+            <Link to='/finance'>
               <img
-                src={require("../img/services-finance.webp")}
-                style={{ width: "100%" }}
-                alt="services-finance"
+                src={require('../img/services-finance.webp')}
+                style={{ width: '100%' }}
+                alt='services-finance'
               />
             </Link>
           </div>
-          <div className="col-6">
-            <Link to="/insurance">
+          <div className='col-6'>
+            <Link to='/insurance'>
               <img
-                src={require("../img/services-insurance.webp")}
-                style={{ width: "100%" }}
-                alt="services-insurance"
+                src={require('../img/services-insurance.webp')}
+                style={{ width: '100%' }}
+                alt='services-insurance'
               />
             </Link>
           </div>
@@ -39,16 +42,20 @@ function Services() {
 const ServiceBanner = () => {
   return (
     <>
-      <img className="mw-100 w-100" src={require("../img/services-banner.webp")} alt="services-banner"/>
-      <div className="container-fluid bg-white py-3 shadow-sm">
-        <div className="container">
-          <ol className="breadcrumb mb-0">
-            <li className="breadcrumb-item">
-              <Link className="text-decoration-none text-black" to="/">
+      <img
+        className='mw-100 w-100'
+        src={require('../img/services-banner.webp')}
+        alt='services-banner'
+      />
+      <div className='py-3 bg-white shadow-sm container-fluid'>
+        <div className='container'>
+          <ol className='mb-0 breadcrumb'>
+            <li className='breadcrumb-item'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>
-            <li className="breadcrumb-item active" aria-current="page">
+            <li className='breadcrumb-item active' aria-current='page'>
               Services
             </li>
           </ol>

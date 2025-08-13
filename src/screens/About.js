@@ -1,57 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { IoIosHome } from 'react-icons/io';
-import { Helmet } from 'react-helmet';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
+import SEO from '../components/SEO/SEO';
 
 function About() {
   return (
     <>
-      <Helmet>
-        <meta
-          name='title'
-          content='Ashok Leyland Authorized Dealers in Hyderabad | Saboo AutoZone'
-        />
-        <meta
-          name='description'
-          content='Saboo AutoZone is leading Ashok Leyland authorized dealers in Hyderabad, Telangana. Ashok Leyland light commercial vehicles, trucks & buses are the leading brand in light commercial vehicle segment in India.'
-        />
-        <meta
-          name='keywords'
-          content='Ashok Leyland Authorized Dealers in Hyderabad'
-        />
-        <meta name='author' content='Broaddcast' />
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://www.sabooautozone.com/' />
-        <meta
-          property='og:title'
-          content='Ashok Leyland Authorized Dealers in Hyderabad | Saboo AutoZone'
-        />
-        <meta
-          property='og:description'
-          content='Saboo AutoZone is leading Ashok Leyland authorized dealers in Hyderabad, Telangana. Ashok Leyland light commercial vehicles, trucks & buses are the leading brand in light commercial vehicle segment in India.'
-        />
-        <meta
-          property='og:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-about-us.jpg'
-        />
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://www.sabooautozone.com/' />
-        <meta
-          property='twitter:title'
-          content='Ashok Leyland Authorized Dealers in Hyderabad | Saboo AutoZone'
-        />
-        <meta
-          property='twitter:description'
-          content='Saboo AutoZone is leading Ashok Leyland authorized dealers in Hyderabad, Telangana. Ashok Leyland light commercial vehicles, trucks & buses are the leading brand in light commercial vehicle segment in India.'
-        />
-        <meta
-          property='twitter:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-about-us.jpg'
-        />
-      </Helmet>
+      <SEO
+        title='Ashok Leyland Authorized Dealers in Hyderabad | Saboo AutoZone'
+        description='Saboo AutoZone is leading Ashok Leyland authorized dealers in Hyderabad, Telangana. Ashok Leyland light commercial vehicles, trucks & buses are the leading brand in light commercial vehicle segment in India.'
+        keywords='Ashok Leyland Authorized Dealers in Hyderabad'
+        image='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-about-us.jpg'
+      />
       <Header />
+      {/* <MainHeader2/> */}
       <AboutBanner />
       <div className='container my-5'>
         <p>
@@ -89,11 +53,11 @@ const AboutBanner = () => {
         src={require('../img/vehicles-banner.webp')}
         alt='vehicles-banner'
       />
-      <div className='container-fluid bg-white py-3 shadow-sm'>
+      <div className='py-3 bg-white shadow-sm container-fluid'>
         <div className='container'>
-          <ol className='breadcrumb mb-0'>
+          <ol className='mb-0 breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link className='text-decoration-none text-black' to='/'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>

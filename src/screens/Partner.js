@@ -1,59 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { IoIosHome } from 'react-icons/io';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
+import SEO from '../components/SEO/SEO';
 
 function Partner() {
   return (
     <>
-      <Helmet>
-        <meta
-          name='title'
-          content='Ashok Leyland Partner Price in Hyderabad | Mileage & Specifications'
-        />
-        <meta
-          name='description'
-          content='Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers.'
-        />
-        <meta
-          name='keywords'
-          content='Ashok Leyland Partner Price, Specifications, Features & Mileage'
-        />
-        <meta name='author' content='Broaddcast' />
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://www.sabooautozone.com/' />
-        <meta
-          property='og:title'
-          content='Ashok Leyland Partner Price in Hyderabad | Mileage & Specifications'
-        />
-        <meta
-          property='og:description'
-          content='Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers.'
-        />
-        <meta
-          property='og:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-partner.jpg'
-        />
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://www.sabooautozone.com/' />
-        <meta
-          property='twitter:title'
-          content='Ashok Leyland Partner Price in Hyderabad | Mileage & Specifications'
-        />
-        <meta
-          property='twitter:description'
-          content='Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers.'
-        />
-        <meta
-          property='twitter:image'
-          content='https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-partner.jpg'
-        />
-        <title>
-          Ashok Leyland Partner Price in Hyderabad | Mileage & Specifications
-        </title>
-      </Helmet>
+   <SEO
+  title="Ashok Leyland Partner Price in Hyderabad | Mileage & Specifications"
+  description="Ashok Leyland Partner 6tyre truck on-road price in Hyderabad. Check out Ashok Leyland Partner 6tyre truck technical specifications, mileage, features at Saboo AutoZone showrooms or call us 91002 55555 for best offers."
+  keywords="Ashok Leyland Partner Price, Specifications, Features & Mileage"
+  image="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-partner.jpg"
+/>
+
       <Header />
       <PartnerBanner />
       <div className='container my-5'>
@@ -65,7 +27,7 @@ function Partner() {
                 className='w-100'
                 alt='partner-4'
               />
-              <h4 className='bg-secondary py-3 text-center text-white'>
+              <h4 className='py-3 text-center text-white bg-secondary'>
                 Partner 4 Tyre
               </h4>
             </Link>
@@ -77,7 +39,7 @@ function Partner() {
                 className='w-100'
                 alt='partner-6'
               />
-              <h4 className='bg-secondary py-3 text-center text-white'>
+              <h4 className='py-3 text-center text-white bg-secondary'>
                 Partner 6 Tyre
               </h4>
             </Link>
@@ -97,11 +59,11 @@ const PartnerBanner = () => {
         src={require('../img/partner-banner.webp')}
         alt='partner-banner'
       />
-      <div className='container-fluid bg-white py-3 shadow-sm'>
+      <div className='py-3 bg-white shadow-sm container-fluid'>
         <div className='container'>
-          <ol className='breadcrumb mb-0'>
+          <ol className='mb-0 breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link className='text-decoration-none text-black' to='/'>
+              <Link className='text-black text-decoration-none' to='/'>
                 <IoIosHome /> Home
               </Link>
             </li>

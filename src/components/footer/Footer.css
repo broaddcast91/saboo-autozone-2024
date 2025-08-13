@@ -69,6 +69,18 @@
     transition: 0.3s ease-in-out;
 }
 
+
+/* styles.css */
+.link-white {
+  color: white;
+  text-decoration: none;
+}
+
+.link-white:hover {
+  color: red;
+}
+
+
 @media (max-width: 992px) {
     .footer-text{
         text-align: center !important;

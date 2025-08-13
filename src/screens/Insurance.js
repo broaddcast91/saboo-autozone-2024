@@ -2,62 +2,22 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { IoIosHome } from "react-icons/io";
 import { Button, Row, Col, Form } from "react-bootstrap";
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import axios from "axios";
 import { toast } from "react-toastify";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import SEO from "../components/SEO/SEO";
 
 function Insurance() {
   return (
     <>
-      <Helmet>
-        <title>
-          Ashok Leyland Commercial trucks Insurance | Cashless and Easy Claim
-          Settlement
-        </title>
-        <meta
-          name="title"
-          content="Ashok Leyland Commercial trucks Insurance | Cashless and Easy Claim Settlement"
-        />
-        <meta
-          name="description"
-          content="Saboo AutoZone offers the best features on its insurance policies likes cashless and easy settlements. Renew an old policy or buy a new one. For more info call us 91002 55555."
-        />
-        <meta
-          name="keywords"
-          content="Ashok Leyland Commercial trucks Insurance"
-        />
-        <meta name="author" content="Broaddcast" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="og:title"
-          content="Ashok Leyland Commercial trucks Insurance | Cashless and Easy Claim Settlement"
-        />
-        <meta
-          property="og:description"
-          content="Saboo AutoZone offers the best features on its insurance policies likes cashless and easy settlements. Renew an old policy or buy a new one. For more info call us 91002 55555."
-        />
-        <meta
-          property="og:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-insurance.jpg"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.sabooautozone.com/" />
-        <meta
-          property="twitter:title"
-          content="Ashok Leyland Commercial trucks Insurance | Cashless and Easy Claim Settlement"
-        />
-        <meta
-          property="twitter:description"
-          content="Saboo AutoZone offers the best features on its insurance policies likes cashless and easy settlements. Renew an old policy or buy a new one. For more info call us 91002 55555."
-        />
-        <meta
-          property="twitter:image"
-          content="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-insurance.jpg"
-        />
-      </Helmet>
+          <SEO
+        title="Ashok Leyland Commercial trucks Insurance | Cashless and Easy Claim Settlement"
+        description="Saboo AutoZone offers the best features on its insurance policies likes cashless and easy settlements. Renew an old policy or buy a new one. For more info call us 91002 55555."
+        keywords="Ashok Leyland Commercial trucks Insurance"
+        image="https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/sabooautozone/og-tags/sabooautozone-insurance.jpg"
+      />
       <Header />
       <InsuranceBanner />
       <InsuranceForm />
